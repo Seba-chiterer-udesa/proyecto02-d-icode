@@ -1,0 +1,19 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* 
+.logo-index {
+    max-width: 150px;
+    max-height: 150px;
+    background-color: red;
+
+} */
+
+.header-index div {
+    display: flex;
+    display: inline-block;
+    flex-wrap: wrap;
+}
