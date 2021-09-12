@@ -14,6 +14,9 @@ body header{
 a {
     text-decoration: none;
     color: black;
+    border-style: groove;
+    padding: 4px;
+    background-color:rgb(180, 201, 211);
 }
 nav{
     display: flex;
