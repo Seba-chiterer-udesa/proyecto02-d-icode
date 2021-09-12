@@ -1,0 +1,41 @@
+body{
+    background-image: url(../img/fondobody.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+body header{
+    background-image: url(../img/fondoheader.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 2000px 100px;
+    height: 1000px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+header{
+    background-image: url(../img/fondoclaro.jpg);
+    max-width: 100%;
+}
+nav div{ 
+    display: inline-block;
+    align-items: flex-end;
+}
+.logo {
+    max-width: 100px;
+    max-height: 100px;
+} 
+.techo{
+    padding: 40px 0px 0px 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#logo{
+    padding: 10px 0px 0px 0px;
+}
