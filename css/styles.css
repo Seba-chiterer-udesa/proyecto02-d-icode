@@ -11,12 +11,16 @@ body header{
     background-size: 2000px 100px;
     height: 1000px;
 }
-a {
+.techo a {
     text-decoration: none;
-    color: black;
-    border-style: groove;
-    padding: 4px;
-    background-color:rgb(180, 201, 211);
+    color: black;    
+    padding: 10px 60px;
+    background-color:rgb(5, 161, 233);
+}
+
+.techo input{
+    background-color: white;
+    padding: 10px 10px;
 }
 nav{
     display: flex;
