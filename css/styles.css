@@ -4,20 +4,49 @@ body{
     background-size: cover;
     margin: 0px;
 }
+
+/* Aqui comienza el header */
+
 body header{
-    background-image: url(../img/fondoheader.jpg);
+    background: linear-gradient(85deg, blue, darkblue);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 2000px 100px;
     height: 1000px;
 }
-a {
+.header-nav a {
     text-decoration: none;
-    color: black;
-    border-style: solid;
-    padding: 4px;
-    background-color:rgb(34, 211, 143);
 }
+.header-registro{
+    display: flex;
+    align-items: center;   
+}
+.header-registro input{
+    border: white;
+    border-style:solid;
+    color:black;  
+    background-color: rgb(5, 161, 233);
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 12px;
+}
+
+.header-busqueda {
+    display: flex;
+    align-items: center;   
+}
+
+.header-busqueda input {
+    border:none;
+    color: white;  
+    background-color: rgb(5, 161, 233);
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 12px;
+}
+
 nav{
     display: flex;
     justify-content: flex-end;
@@ -35,10 +64,80 @@ nav div{
     max-width: 100px;
     max-height: 100px;
 } 
-.techo{
+.header-nav{
     padding: 40px 0px 0px 0px;
     font-family: 'Noto Sans JP', sans-serif;
 }
 #logo{
     padding: 10px 0px 0px 0px;
 }
+
+
+
+/* Aquí comienza el footer */
+footer {
+    width: 100%;
+    padding: 30px 0px;
+    background: linear-gradient(85deg, blue, darkblue);
+    background-size: cover;
+    height: 5%;
+    border-top-right-radius: 7%;
+    border-top-left-radius: 7%;
+}
+.container_footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+
+}
+.box-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.box-footer .logo img {
+    width: 150px;
+}
+.box-footer .terms {
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color:black;
+    font-size: 18px;
+    }
+    .box-footer h2 {
+        margin-bottom: 20px;
+        color:black;
+        font-weight: 700;
+    }
+    .box-footer a {
+        color: black;
+        margin-top: 20px;
+        font-weight: 650;
+        text-decoration: none;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+    .box-footer a .fab {
+        font-size: 25px;
+    }
+    .box-copyright {
+        max-width: 1200px;
+        margin: auto;
+        text-align: center;
+        padding: 0px 20px;
+        color: black;
+    }
+    .box-copyright p {
+        color: black;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 17px;
+    }
+    .box-copyright hr{
+       background-color: black;
+        width: 1200px;
+        border: none;
+        height: 3px;
+    }
