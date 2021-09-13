@@ -12,7 +12,7 @@ body header{
     background-repeat: no-repeat;
     background-position: top;
     background-size: 2000px 100px;
-    height: 1000px;
+    height: 125px;
 }
 .header-nav a {
     text-decoration: none;
@@ -77,9 +77,181 @@ nav div{
 #logo{
     padding: 10px 0px 0px 0px;
 }
+/* Aquí comienza el main */
+main{
+    max-width:  2000px;
+    height: 1000%;
+    padding: 5% 5% ;
+    /* background-color: yellow; */
+    justify-content: center;
+    margin: auto;
+}
+.main-container{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    margin-top: 0%;
+    width: 1900px;
+    padding: 0%;
+}
+.peliculas-populares{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 30%;
+    padding: 10px 10px;
+    /* background-color: blueviolet; */
+}
+.peliculas-populares a{
+    display: inline-block;
+    justify-content: center;
+    width: 184px;
+    height: 286.2px;
+}
+.peliculas-populares .marvel-endgame {
+    margin: 5% 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    width: 220.38px;
+    height: 400.88;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-direction: row;
+    justify-content:center;
+}
+.peliculas-populares .marvel-endgame img{
+    margin-top: 5%;
+}
+.peliculas-populares h2 {
+    display: inline-block;
+    width:1900px ;
+    background-color: black;
+    margin-bottom: 1%;
+    color:blue;
+    font-weight: 700;
+    text-align: left;
+}
+.peliculas-populares .marvel-endgame h3{
+margin-top: 7%;
+margin-bottom: 2%;
+text-align: center;
+}
+.peliculas-populares p{
+    color: black;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 5%;
+}
+.peliculas-populares .the-last-song {
+    margin: 5% 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:blue;
+    width: 220.38px;
+    height: 400.88;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-direction: row;
+    justify-content: center;
+}
+.peliculas-populares .the-last-song a img{
+    display: flex;
+    margin-top: 5%;
+    width: 184px ;
+    height: 273px;
+    justify-content:center;
+}
 
-
-
+.peliculas-populares .the-last-song h3{
+    margin-top: 7%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.peliculas-populares .la-chica-danesa {
+    margin: 5% 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:blue;
+    width: 220.38px;
+    height: 400.88;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-direction: row;
+    justify-content: center;
+}
+.peliculas-populares .la-chica-danesa a img{
+    display: flex;
+    margin-top: 5%;
+    width: 184px ;
+    height: 273px;
+    justify-content:center;
+}
+.peliculas-populares .la-chica-danesa h3{
+    margin-top: 7%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.peliculas-populares .sherlock-holmes {
+    margin: 5% 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:blue;
+    width: 220.38px;
+    height: 400.88;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-direction: row;
+    justify-content: center;
+}
+.peliculas-populares .sherlock-holmes a img{
+    display: flex;
+    margin-top: 5%;
+    width: 184px ;
+    height: 273px;
+    justify-content:center;
+}
+.peliculas-populares .sherlock-holmes h3{
+    margin-top: 7%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.peliculas-populares .lucy {
+    margin: 5% 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:blue;
+    width: 220.38px;
+    height: 400.88;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-direction: row;
+    justify-content: center;
+}
+.peliculas-populares .lucy a img{
+    display: flex;
+    margin-top: 5%;
+    width: 184px ;
+    height: 273px;
+    justify-content:center;
+}
+.peliculas-populares .lucy h3{
+    margin-top: 7%;
+    margin-bottom: 2%;
+    text-align: center;
+}
 /* Aquí comienza el footer */
 footer {
     width: 100%;
