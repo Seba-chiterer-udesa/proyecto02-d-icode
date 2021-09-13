@@ -4,6 +4,9 @@ body{
     background-size: cover;
     margin: 0px;
 }
+
+/* Aqui comienza el header */
+
 body header{
     background: linear-gradient(85deg, blue, darkblue);
     background-repeat: no-repeat;
@@ -11,17 +14,45 @@ body header{
     background-size: 2000px 100px;
     height: 1000px;
 }
-.techo a {
+.header-nav a {
     text-decoration: none;
     color: black;    
     padding: 10px 60px;
     background-color:rgb(5, 161, 233);
+    font-weight: bolder;
 }
 
-.techo input{
-    background-color: white;
-    padding: 10px 10px;
+.header-registro{
+    display: flex;
+    align-items: center;   
 }
+
+.header-registro input{
+    border: white;
+    border-style:solid;
+    color:black;  
+    background-color: rgb(5, 161, 233);
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 12px;
+}
+
+.header-busqueda {
+    display: flex;
+    align-items: center;   
+}
+
+.header-busqueda input {
+    border:none;
+    color: white;  
+    background-color: rgb(5, 161, 233);
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 12px;
+}
+
 nav{
     display: flex;
     justify-content: flex-end;
@@ -39,13 +70,16 @@ nav div{
     max-width: 100px;
     max-height: 100px;
 } 
-.techo{
+.header-nav{
     padding: 40px 0px 0px 0px;
     font-family: 'Noto Sans JP', sans-serif;
 }
 #logo{
     padding: 10px 0px 0px 0px;
 }
+
+
+
 /* Aquí comienza el footer */
 footer {
     width: 100%;
