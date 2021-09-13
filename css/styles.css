@@ -1,14 +1,23 @@
+a{
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
+}
+
+input{
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
+}
+
 body{
     background-image: url(../img/fondobody.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
 }
 
 /* Aqui comienza el header */
 
 body header{
-    background: linear-gradient(85deg, blue, darkblue);
+    background-color: #080f28;
     background-repeat: no-repeat;
     background-position: top;
     background-size: 2000px 100px;
@@ -16,10 +25,11 @@ body header{
 }
 .header-nav a {
     text-decoration: none;
-    color: black;    
-    padding: 10px 60px;
-    background-color:rgb(5, 161, 233);
+    color: white;    
+    padding: 10px 45px;
+    background-color:#007aff;
     font-weight: bolder;
+    border-radius: 15px;
 }
 
 .header-registro{
@@ -30,12 +40,13 @@ body header{
 .header-registro input{
     border: white;
     border-style:solid;
-    color:black;  
-    background-color: rgb(5, 161, 233);
+    color:white;  
+    background-color: #007aff;
     padding: 10px 10px;
     text-align: center;
     border-radius: 30px;
-    margin-top: 12px;
+    margin-top: 0px;
+    margin-bottom:35px ;
 }
 
 .header-busqueda {
@@ -46,11 +57,12 @@ body header{
 .header-busqueda input {
     border:none;
     color: white;  
-    background-color: rgb(5, 161, 233);
+    background-color: #007aff;
     padding: 10px 10px;
     text-align: center;
     border-radius: 30px;
-    margin-top: 12px;
+    margin-top: 0px;
+    margin-bottom: 35px;
 }
 
 nav{
@@ -67,32 +79,35 @@ nav div{
     align-items: flex-end;
 }
 .logo {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 135px;
+    max-height: 135px;
 } 
 .header-nav{
     padding: 40px 0px 0px 0px;
     font-family: 'Noto Sans JP', sans-serif;
 }
 #logo{
-    padding: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
+
 /* Aquí comienza el main */
+
 main{
     max-width:  2000px;
     height: 1000%;
     padding: 5% 5% ;
-    /* background-color: yellow; */
     justify-content: center;
     margin: auto;
+    
 }
 .main-container{
     display: flex;
-    background-color: black;
+    background-color:#080f28;
     justify-content: space-around;
     margin-top: 0%;
     width: 1900px;
     padding: 0%;
+    border-radius: 20px;
 }
 .peliculas-populares{
     display: flex;
@@ -101,7 +116,7 @@ main{
     width: 100%;
     height: 30%;
     padding: 10px 10px;
-    /* background-color: blueviolet; */
+    color: white;
 }
 .peliculas-populares a{
     display: inline-block;
@@ -109,57 +124,65 @@ main{
     width: 184px;
     height: 286.2px;
 }
-.peliculas-populares .marvel-endgame {
-    margin: 5% 1%;
-    padding-bottom: 1%;
-    padding-top: 1%;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: blue;
-    width: 220.38px;
-    height: 400.88;
-    padding-left: 1%;
-    padding-right: 1%;
-    flex-direction: row;
-    justify-content:center;
-}
+
 .peliculas-populares .marvel-endgame img{
     margin-top: 5%;
 }
 .peliculas-populares h2 {
     display: inline-block;
     width:1900px ;
-    background-color: black;
+    background-color: #080f28;
     margin-bottom: 1%;
-    color:blue;
+    padding: 10px 10px;
+    padding-left: 10px;
+    color:white;
     font-weight: 700;
     text-align: left;
+    border-radius: 15px;
 }
 .peliculas-populares .marvel-endgame h3{
-margin-top: 7%;
-margin-bottom: 2%;
-text-align: center;
+    margin-top: 7%;
+    margin-bottom: 2%;
+    text-align: center;
 }
 .peliculas-populares p{
-    color: black;
+    color: white;
     margin-top: 2%;
     text-align: center;
     font-size: 12px;
     margin-bottom: 5%;
 }
+
+.peliculas-populares .marvel-endgame {
+    margin: 5% 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#007aff;
+    width: 220.38px;
+    height: 400.88;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-direction: row;
+    justify-content:center;
+    border-radius: 20px;
+}
+
 .peliculas-populares .the-last-song {
     margin: 5% 1%;
     padding-bottom: 1%;
     padding-top: 1%;
     display: flex;
     flex-wrap: wrap;
-    background-color:blue;
+    background-color:#007aff;
     width: 220.38px;
     height: 400.88;
     padding-left: 1%;
     padding-right: 1%;
     flex-direction: row;
     justify-content: center;
+    border-radius: 20px;
 }
 .peliculas-populares .the-last-song a img{
     display: flex;
@@ -180,13 +203,14 @@ text-align: center;
     padding-top: 1%;
     display: flex;
     flex-wrap: wrap;
-    background-color:blue;
+    background-color:#007aff;
     width: 220.38px;
     height: 400.88;
     padding-left: 1%;
     padding-right: 1%;
     flex-direction: row;
     justify-content: center;
+    border-radius: 20px;
 }
 .peliculas-populares .la-chica-danesa a img{
     display: flex;
@@ -206,13 +230,14 @@ text-align: center;
     padding-top: 1%;
     display: flex;
     flex-wrap: wrap;
-    background-color:blue;
+    background-color:#007aff;
     width: 220.38px;
     height: 400.88;
     padding-left: 1%;
     padding-right: 1%;
     flex-direction: row;
     justify-content: center;
+    border-radius: 20px;
 }
 .peliculas-populares .sherlock-holmes a img{
     display: flex;
@@ -232,13 +257,14 @@ text-align: center;
     padding-top: 1%;
     display: flex;
     flex-wrap: wrap;
-    background-color:blue;
+    background-color:#007aff;
     width: 220.38px;
     height: 400.88;
     padding-left: 1%;
     padding-right: 1%;
     flex-direction: row;
     justify-content: center;
+    border-radius: 20px;
 }
 .peliculas-populares .lucy a img{
     display: flex;
@@ -256,7 +282,7 @@ text-align: center;
 footer {
     width: 100%;
     padding: 30px 0px;
-    background: linear-gradient(85deg, blue, darkblue);
+    background: #080f28;
     background-size: cover;
     height: 5%;
     border-top-right-radius: 7%;
@@ -268,7 +294,6 @@ footer {
     justify-content: space-between;
     max-width: 1200px;
     margin: auto;
-
 }
 .box-footer {
     display: flex;
@@ -276,46 +301,46 @@ footer {
     padding: 10px;
 }
 .box-footer .logo img {
-    width: 150px;
+    width: 200px;
 }
 .box-footer .terms {
     max-width: 350px;
     margin-top: 20px;
     font-weight: 500;
-    color:black;
+    color:white;
     font-size: 18px;
-    }
-    .box-footer h2 {
-        margin-bottom: 20px;
-        color:black;
-        font-weight: 700;
-    }
-    .box-footer a {
-        color: black;
-        margin-top: 20px;
-        font-weight: 650;
-        text-decoration: none;
-        font-family: 'Noto Sans JP', sans-serif;
-    }
-    .box-footer a .fab {
-        font-size: 25px;
-    }
-    .box-copyright {
-        max-width: 1200px;
-        margin: auto;
-        text-align: center;
-        padding: 0px 20px;
-        color: black;
-    }
-    .box-copyright p {
-        color: black;
-        margin-top: 20px;
-        text-align: center;
-        font-size: 17px;
-    }
-    .box-copyright hr{
-       background-color: black;
-        width: 1200px;
-        border: none;
-        height: 3px;
-    }
+}
+.box-footer h2 {
+    margin-bottom: 20px;
+    color:white;
+    font-weight: 700;
+}
+.box-footer a {
+    color: white;
+    margin-top: 20px;
+    font-weight: 650;
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.box-footer a .fab {
+    font-size: 25px;
+}
+.box-copyright {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 20px;
+    color: white;
+}
+.box-copyright p {
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 17px;
+}
+.box-copyright hr{
+    background-color: white;
+    width: 1200px;
+    border: none;
+    height: 3px;
+}
