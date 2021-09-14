@@ -108,6 +108,7 @@ main{
     padding: 0%;
     border-radius: 20px;
 }
+/* SECCIÓN LO MÁS VISTO EN PELÍCULAS */
 .peliculas-populares{
     display: flex;
     flex-wrap: wrap;
@@ -123,7 +124,13 @@ main{
     width: 184px;
     height: 286.2px;
 }
-
+.peliculas-populares p{
+    color: white;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 5%;
+}
 .peliculas-populares .marvel-endgame img{
     margin-top: 5%;
 }
@@ -143,13 +150,6 @@ main{
     margin-top: 7%;
     margin-bottom: 2%;
     text-align: center;
-}
-.peliculas-populares p{
-    color: white;
-    margin-top: 2%;
-    text-align: center;
-    font-size: 12px;
-    margin-bottom: 5%;
 }
 
 .peliculas-populares .marvel-endgame {
@@ -276,6 +276,478 @@ main{
     margin-top: 7%;
     margin-bottom: 2%;
     text-align: center;
+}
+/* SECCIÓN LO MÁS VISTO EN PELÍCULAS */
+.lomasvistoenpeliculas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 30%;
+    padding: 10px 10px;
+    color: white;
+}
+.lomasvistoenpeliculas a{
+    display: inline-block;
+    justify-content: center;
+    width: 184px;
+    height: 286.2px;
+}
+
+.lomasvistoenpeliculas h2 {
+    display: inline-block;
+    width:1900px ;
+    background-color: #080f28;
+    margin-bottom: 1%;
+    padding: 10px 10px;
+    padding-left: 10px;
+    color:white;
+    font-weight: 700;
+    text-align: left;
+    border-radius: 15px;
+}
+.lomasvistoenpeliculas p{
+    color: white;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 5%;
+}
+
+.lomasvistoenpeliculas .los-ilusionistas{ 
+    margin: 5% 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#007aff;
+    width: 220.38px;
+    height: 400.88;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+}
+.lomasvistoenpeliculas .los-ilusionistas a img{
+    display: flex;
+    margin-top: 5%;
+    width: 184px ;
+    height: 273px;
+    justify-content:center;
+}
+.lomasvistoenpeliculas .los-ilusionistas h3{
+    margin-top: 7%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.lomasvistoenpeliculas .joe-black{ 
+    margin: 5% 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#007aff;
+    width: 220.38px;
+    height: 400.88;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+}
+.lomasvistoenpeliculas .joe-black a img{
+    display: flex;
+    margin-top: 5%;
+    width: 184px ;
+    height: 273px;
+    justify-content:center;
+}
+.lomasvistoenpeliculas .joe-black h3{
+    margin-top: 7%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.lomasvistoenpeliculas .marvel-endgame { 
+    margin: 5% 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#007aff;
+    width: 220.38px;
+    height: 400.88;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+}
+.lomasvistoenpeliculas .marvel-endgame a img{
+    display: flex;
+    margin-top: 5%;
+    width: 184px ;
+    height: 273px;
+    justify-content:center;
+}
+.lomasvistoenpeliculas .marvel-endgame h3{
+    margin-top: 7%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.lomasvistoenpeliculas .nerve { 
+    margin: 5% 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#007aff;
+    width: 220.38px;
+    height: 400.88;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+}
+.lomasvistoenpeliculas .nerve a img{
+    display: flex;
+    margin-top: 5%;
+    width: 184px ;
+    height: 273px;
+    justify-content:center;
+}
+.lomasvistoenpeliculas .nerve h3{
+    margin-top: 7%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.lomasvistoenpeliculas .howtolose { 
+    margin: 5% 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#007aff;
+    width: 220.38px;
+    height: 400.88;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+}
+.lomasvistoenpeliculas .howtolose a img{
+    display: flex;
+    margin-top: 5%;
+    width: 184px ;
+    height: 273px;
+    justify-content:center;
+}
+.lomasvistoenpeliculas .howtolose h3{
+    margin-top: 7%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+/* SECCIÓN SERIES POPULARES */
+.popu-series{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 30%;
+    padding: 10px 10px;
+    color: white;
+}
+.popu-series a{
+    display: inline-block;
+    justify-content: center;
+    width: 184px;
+    height: 286.2px;
+}
+.popu-series p{
+    color: white;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 5%;
+}
+.popu-series h2 {
+    display: inline-block;
+    width:1900px ;
+    background-color: #080f28;
+    margin-bottom: 1%;
+    padding: 10px 10px;
+    padding-left: 10px;
+    color:white;
+    font-weight: 700;
+    text-align: left;
+    border-radius: 15px;
+}
+.popu-series h3{
+    margin-top: 7%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.popu-series .casadepapel{ 
+    margin: 5% 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#007aff;
+    width: 220.38px;
+    height: 400.88;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+}
+.popu-series .casadepapel a img{
+    display: flex;
+    margin-top: 5%;
+    width: 184px ;
+    height: 273px;
+    justify-content:center;
+}
+.popu-series .anne{ 
+    margin: 5% 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#007aff;
+    width: 220.38px;
+    height: 400.88;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+}
+.popu-series .anne a img{
+    display: flex;
+    margin-top: 5%;
+    width: 184px ;
+    height: 273px;
+    justify-content:center;
+}
+.popu-series .los100 { 
+    margin: 5% 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#007aff;
+    width: 220.38px;
+    height: 400.88;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+}
+.popu-series .los100 a img{
+    display: flex;
+    margin-top: 5%;
+    width: 184px ;
+    height: 273px;
+    justify-content:center;
+}
+.popu-series .vis-a-vis{ 
+    margin: 5% 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#007aff;
+    width: 220.38px;
+    height: 400.88;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+}
+.popu-series .vis-a-vis a img{
+    display: flex;
+    margin-top: 5%;
+    width: 184px ;
+    height: 273px;
+    justify-content:center;
+}
+.popu-series .outlander{ 
+    margin: 5% 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#007aff;
+    width: 220.38px;
+    height: 400.88;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+}
+.popu-series .outlander a img{
+    display: flex;
+    margin-top: 5%;
+    width: 184px ;
+    height: 273px;
+    justify-content:center;
+}
+/* SECCIÓN LO MÁS VISTO EN SERIES */
+.visto-series{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 30%;
+    padding: 10px 10px;
+    color: white;
+}
+.visto-series a{
+    display: inline-block;
+    justify-content: center;
+    width: 184px;
+    height: 286.2px;
+}
+.visto-series p{
+    color: white;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 5%;
+}
+.visto-series h2 {
+    display: inline-block;
+    width:1900px ;
+    background-color: #080f28;
+    margin-bottom: 1%;
+    padding: 10px 10px;
+    padding-left: 10px;
+    color:white;
+    font-weight: 700;
+    text-align: left;
+    border-radius: 15px;
+}
+.visto-series h3{
+    margin-top: 7%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.visto-series .cobrakai{ 
+    margin: 5% 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#007aff;
+    width: 220.38px;
+    height: 400.88;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+}
+.visto-series .cobrakai a img{
+    display: flex;
+    margin-top: 5%;
+    width: 184px ;
+    height: 273px;
+    justify-content:center;
+}
+.visto-series .jane{ 
+    margin: 5% 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#007aff;
+    width: 220.38px;
+    height: 400.88;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+}
+.visto-series .jane a img{
+    display: flex;
+    margin-top: 5%;
+    width: 184px ;
+    height: 273px;
+    justify-content:center;
+}
+.visto-series .flash{ 
+    margin: 5% 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#007aff;
+    width: 220.38px;
+    height: 400.88;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+}
+.visto-series .flash a img{
+    display: flex;
+    margin-top: 5%;
+    width: 184px ;
+    height: 273px;
+    justify-content:center;
+}
+.visto-series .casadepapel{ 
+    margin: 5% 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#007aff;
+    width: 220.38px;
+    height: 400.88;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+}
+.visto-series .casadepapel a img{
+    display: flex;
+    margin-top: 5%;
+    width: 184px ;
+    height: 273px;
+    justify-content:center;
+}
+.visto-series .breaking-bad{ 
+    margin: 5% 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#007aff;
+    width: 220.38px;
+    height: 400.88;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+}
+.visto-series .breaking-bad a img{
+    display: flex;
+    margin-top: 5%;
+    width: 184px ;
+    height: 273px;
+    justify-content:center;
 }
 /* Aquí comienza el footer */
 footer {
