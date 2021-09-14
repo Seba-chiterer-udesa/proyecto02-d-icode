@@ -95,7 +95,12 @@ nav div{
 main{
     max-width:  2000px;
     height: 1000%;
+<<<<<<< HEAD
     padding: 5% 5% ;
+=======
+    padding: 1% 5% ;
+    /* background-color: yellow; */
+>>>>>>> be47b3d34704880658c46078bb1c9012c5e3f17e
     justify-content: center;
     margin: auto;
     
