@@ -815,3 +815,123 @@ footer {
     border: none;
     height: 3px;
 }
+
+/* Aqui comienza el registro y login*/
+
+.div-registro{
+    display: flex;
+    justify-content: space-around;
+    background-color: #080f28;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 70px 10px 80px 10px;
+    color:white;
+    font-weight: 700;
+    text-align: left;
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+.main-registro{
+    max-width: 500px;
+}
+
+.h1-registro{
+    margin-top: 0px;
+}
+
+.h1-login{
+    margin-top: 0px;
+}
+
+form {
+    display: inline-block;
+    justify-content: center;
+    max-width: 1000px;
+
+}
+
+form div input {
+    display: block;
+    justify-content: flex-end;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border:none;
+    color: white;  
+    background-color: #007aff;
+    padding: 8px 60px;
+    text-align: left;
+    border-radius: 30px;
+}
+
+.nacionalidad-registro{
+    display: block;
+    margin-top: 15px;
+    border:none;
+    color: white;  
+    background-color: #007aff;
+    padding: 8px 60px;
+    text-align: left;
+    border-radius: 30px;
+}
+/* Terminos y condiciones del registro */
+
+.terminos-registro {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.terminos-registro input{
+    background-color: #007aff;
+    margin-top: 25px;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+.terminos-registro label{
+    margin-top: 15px;
+}
+
+
+/* Boton registrarse */
+
+.boton-registro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.boton-registro a{
+    text-decoration: none;
+}
+
+
+/* Boton de volver del registro y login*/
+
+.boton-volver{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boton-volver a {
+    text-decoration: none;
+   
+}
+
+
+/* Boton login */
+
+.boton-login{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+.boton-login a{
+    text-decoration: none;
+}
+
+
+

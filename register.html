@@ -32,13 +32,69 @@
                 <input type="search" name="busqueda" value="" placeholder="Buscar películas o series">
             </div>
             <div class="header-registro">
-                <input type="button" value="Registrarse">
+                <a href="./register.html"><input type="button" value="Registrarse"></a>
              </div> 
             <div class="header-registro">
-                <input type="button" value="Login">
+                <a href="./login.html"><input type="button" value="Login"></a>
             </div>
         </nav>  
     </header>
+
+    <main class="main-registro" >
+        <div class="div-registro">
+            <form action="./results.html" method="GET" class="formulario">
+                <h1 class="h1-registro"> Registrarse</h1>
+                
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" value="" required>
+                </div> 
+     
+                <div>
+                    <div >
+                    <label for="email">Email</label>
+                    <input type="email" name="email" value="" required>
+                    
+                </div>
+     
+                <div>
+                    <div >
+                    <label for="password">Contraseña</label>
+                    <input type="password" name="contraseña" value="">
+                
+                </div>
+                
+                <div>
+                    <div>
+                        <label for="nacionalidades">Nacionalidad</label>
+                    <select  class="nacionalidad-registro" name="nacionalidades" id="" >
+                        <option value="AR">Argentina</option>
+                        <option value="BR">Brasil</option>
+                        <option value="CL">Chile</option>
+                        <option value="PR">Paraguay</option>
+                        <option value="UY">Uruguay</option>
+                    </select>
+                </div>
+    
+                <div class="terminos-registro">
+                    <label for="Terminos">Acepto terminos y condiciones</label>
+                    <input type="checkbox" name="Terminos" value="Acepto" >
+                  
+                </div>
+    
+                <div class="boton-registro">
+                    <input type="button" value="Registrarme">
+                    <a href="./index.html"><input type="button" value="Cancelar"></a>
+                </div>
+                <div class="boton-volver">
+                    <a href="./index.html"><input type="button" value="Volver"> </a>   
+                </div>
+    
+    
+                <div></div>
+            </form>
+        </div>
+    </main>
    
     <footer>
         <div class="container_footer">
