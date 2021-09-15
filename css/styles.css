@@ -39,6 +39,7 @@ body header{
 
 .header-registro input{
     border: white;
+    border-width: 2px;
     border-style:solid;
     color:white;  
     background-color: #007aff;
