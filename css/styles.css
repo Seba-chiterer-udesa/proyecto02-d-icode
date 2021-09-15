@@ -20,12 +20,13 @@ body header{
     background-color: #080f28;
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 2000px 100px;
+    /* background-size: 2000px 100px; */
     height: 125px;
 }
-.header-nav a {
+
+.header-nav a{
     text-decoration: none;
-    color: white;    
+    color: white;  
     padding: 10px 45px;
     background-color:#007aff;
     font-weight: bolder;
@@ -34,7 +35,7 @@ body header{
 
 .header-registro{
     display: flex;
-    align-items: center;   
+    align-items: center;
 }
 
 .header-registro input{
@@ -44,7 +45,7 @@ body header{
     color:white;  
     background-color: #007aff;
     padding: 10px 10px;
-    text-align: center;
+   /*  text-align: center; */
     border-radius: 30px;
     margin-top: 0px;
     margin-bottom:35px ;
@@ -55,29 +56,35 @@ body header{
     align-items: center;   
 }
 
+.lupa{
+    color:#1888ffe1;
+    margin:0px 0px 40px 10px;
+}
+
 .header-busqueda input {
-    border:none;
-    color: white;  
+    border:none;  
     background-color: #007aff;
     padding: 10px 10px;
-    text-align: center;
     border-radius: 30px;
-    margin-top: 0px;
     margin-bottom: 35px;
+}
+::placeholder{
+    color: white;
 }
 
 nav{
     display: flex;
     justify-content: space-around;
+    padding-top: 10px;
 }
 header{
     background-image: url(../img/fondoclaro.jpg);
     max-width: 100%;
 }
-nav div{ 
+/* nav div{ 
     display: inline-block;
     align-items: flex-end;
-}
+} */
 .logo {
     max-width: 135px;
     max-height: 135px;
