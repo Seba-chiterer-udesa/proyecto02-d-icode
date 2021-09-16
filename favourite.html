@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Registro</title>
+    <title>Inicio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 </head>
 <body>
@@ -25,62 +28,79 @@
             </div>
             <div class="header-nav">
                 <a href="./detail-series.html">Series</a>
-            </div>           
-            <div class= "header-busqueda" >
+            </div>   
+            <div class="header-nav">
+                <a href="./favourite.html">Favoritos</a>
+            </div>
+            <div class= "header-busqueda">
                 <input type="search" name="busqueda" value="" placeholder="Buscar películas o series">
                 <a href="./results.html"><i class="fas fa-search lupa"></i></a>
             </div>
             <div class="header-registro">
-                <input type="button" value="Registrarse">
+                <a href="./register.html"><input type="button" value="Registrarse"></a>
              </div> 
             <div class="header-registro">
-                <input type="button" value="Login">
+                <a href="./login.html"><input type="button" value="Login"></a>
             </div>
         </nav>  
     </header>
-   
+    <main>
+        <div class="peliculas-populares">
+            <h2>• FAVORITOS •</h2>
+              <div class="main-container">
+                <div class="detail-marvel-endgame">
+                    <a href="detail-movies.html"><img src="./img/marvel-endgame.jfif" alt="Ficha end game"></a>
+                    <h3>MARVEL: END GAME</h3>
+                    <p>2019 ‧ Acción/Ciencia ficción ‧ 3h 2m</p>
+                </div>
+    </main>
+
     <footer>
         <div class="container_footer">
             <div class="box-footer">
-                <div class="logo">
-                    <img src="./img/logo-blanco-3.png" alt="logo">
-                </div>
-                <div class="terms">
-                    <p> D&I Films es un servicio de streaming gratuito que tiene como objetivo que todas las personas puedan accerder a contenido de calidad. Surge como una iniciativa de la coorporativa D&I Code, encabezada y desarrollada por sus dueños fundadores Chiterer Sebastian, Denham Tobias y Teperman Ana.</p>
-                </div>
-            </div>
-            <div class="box-footer">
-                <h2> NOSOTROS </h2>
-                <a href="#">¿Quiénes somos?</a>
-    
-                <a href="#">Información coorporativa</a>
-    
-                <a href="#">Trabajá con nosotros</a>
-    
-                <a href="#">Contacto</a>
-            </div>
-    
-            <div class="box-footer">
-                <h2> AYUDA </h2>
-                <a href="#">Preguntas frecuentas</a>
-    
-                <a href="#">Términos de uso</a>
-    
-                <a href="#">Preferencia de cookies</a>
-    
-                <a href="#">Privacidad</a>
-            </div>
-            <div class="box-footer">
-                <h2> REDES SOCIALES </h2>
-                <a href="#"> <i class="fab fa-instagram"></i> Instagram</a>       
-                <a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>        
-                <a href="#"><i class="fab fa-youtube"></i> Youtube</a>   
-                <a href="#"><i class="fab fa-amazon"></i> Amazon</a>              
-            </div>
-            <div class="box-copyright">
-                <hr>
-                <p>Todos los derechos reservados <i class="far fa-copyright"></i> 2021 <b>D&I Films</b></p>
-            </div>
-    </footer>    
+                    <div class="logo">
+                        <img src="./img/logo-blanco-3.png" alt="logo">
+                    </div>
+                    <div class="terms">
+                        <p> D&I Films es un servicio de streaming gratuito que tiene como objetivo que todas las personas puedan accerder a contenido de calidad. Surge como una iniciativa de la coorporativa D&I Code, encabezada y desarrollada por sus dueños fundadores Chiterer Sebastian, Denham Tobias y Teperman Ana.</p>
+                    </div>
+        </div>
+        <div class="box-footer">
+            <h2> NOSOTROS </h2>
+            <a href="#">¿Quiénes somos?</a>
+
+            <a href="#">Información coorporativa</a>
+
+            <a href="#">Trabajá con nosotros</a>
+
+            <a href="#">Contacto</a>
+        </div>
+
+        <div class="box-footer">
+            <h2> AYUDA </h2>
+            <a href="#">Preguntas frecuentas</a>
+
+            <a href="#">Términos de uso</a>
+
+            <a href="#">Preferencia de cookies</a>
+
+            <a href="#">Privacidad</a>
+        </div>
+        <div class="box-footer">
+            <h2> REDES SOCIALES </h2>
+            
+                        <a href="#"> <i class="fab fa-instagram"></i> Instagram</a> 
+                   
+                        <a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
+                    
+                        <a href="#"><i class="fab fa-youtube"></i> Youtube</a>
+                   
+                        <a href="#"><i class="fab fa-amazon"></i> Amazon</a>              
+        </div>
+        <div class="box-copyright">
+            <hr>
+            <p>Todos los derechos reservados <i class="far fa-copyright"></i> 2021 <b>D&I Films</b></p>
+        </div>
+    </footer>
 </body>
-</html>
+</html> 
