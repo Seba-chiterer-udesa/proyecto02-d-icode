@@ -157,10 +157,9 @@ header{
     display: flex;
     flex-wrap: nowrap;
     background-color:#007aff ;
-    max-width: 10%;
-    width: 5%;
+    max-width: 5%;
     padding-left: 1%;
-    padding-right: 0%;
+    padding-right: 1%;
     flex-direction: column;
     justify-content: center;
     border-radius: 20px;
@@ -857,22 +856,30 @@ main{
     height: 273px;
     justify-content:center; */
 /* } */
+
 /* Aquí comienza el footer */
 footer {
     width: 100%;
-    padding: 30px 0px;
-    background: #080f28;
+    padding: 30px 20px;
+    background-color: #080f28;
+    height: 3%;
     background-size: cover;
-    height: 5%;
     border-top-right-radius: 7%;
     border-top-left-radius: 7%;
+    margin-top: 3%;
 }
+
 .container_footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 1900px;
     margin: auto;
+    background-color:#080f28;
+    background-size: cover;
+    padding: 2% 5%;
+    border-top-right-radius: 15%;
+    border-top-left-radius: 15%;
 }
 .box-footer {
     display: flex;
