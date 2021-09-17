@@ -96,12 +96,102 @@ header{
 #logo{
     padding: 0px 0px 0px 0px;
 }
-
 /* Aquí comienza el main */
-
+.main-container{
+    max-width:  1900px;
+    padding: 1% 5%;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+.main-container article{
+    display: flex;
+    /* background-color:green; */
+    justify-content: space-around;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    max-width: 1900px;
+    padding: 1%;
+    border-radius: 20px;
+    min-width: 300px;
+}
+/* .titulos {
+    background-color:#080f28;
+    color: white;
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 1%;
+    text-align: left;
+    border-radius: 15px;
+    max-width:1900px ;
+    min-width: 300px;
+} */
+.titulos h2{
+    display: inline-block;
+    width:100%;
+    background-color: #080f28;
+    margin-bottom: 10px;
+    padding: 15px 10px;
+    padding-left: 15px;
+    color:white;
+    font-weight: 700;
+    text-align: left;
+    border-radius: 15px;
+    margin: 0 0;
+}
+.popu-pelis {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    background-color: #080f28;
+    margin:  0;
+    max-width: 1900px;
+    border-radius: 20px;
+    padding: 1%;
+}
+.popu-pelis article{
+    margin: 0%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:#007aff ;
+    max-width: 10%;
+    width: 5%;
+    padding-left: 1%;
+    padding-right: 0%;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+}
+article div{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+ .imagen a img{
+    max-width: 95%; 
+    padding: 10px;
+}
+article p{
+    color: white;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 5%;
+}
+article h3{
+    margin-top: 7%;
+    margin-bottom: 2%;
+    text-align: center;
+    max-width: 95%;
+    color: white;
+}
+/* Aquí comienza el main */
+/* 
 main{
     max-width:  2000px;
-    height: 1000%;
     padding: 1% 5%;
     justify-content: center;
     margin: auto;
@@ -112,7 +202,7 @@ main{
     background-color:#080f28;
     justify-content: space-around;
     margin-top: 0%;
-    width: 1900px;
+    max-width: 1900px;
     padding: 0%;
     border-radius: 20px;
 }
@@ -121,7 +211,7 @@ main{
 }
 
 /* SECCIÓN LO MÁS VISTO EN PELÍCULAS */
-.peliculas-populares{
+/* .peliculas-populares{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -229,8 +319,8 @@ main{
     width: 184px ;
     height: 273px;
     justify-content:center;
-}
-.peliculas-populares .la-chica-danesa h3{
+} */
+/* .peliculas-populares .la-chica-danesa h3{
     margin-top: 7%;
     margin-bottom: 2%;
     text-align: center;
@@ -290,7 +380,7 @@ main{
     text-align: center;
 }
 /* SECCIÓN LO MÁS VISTO EN PELÍCULAS */
-.lomasvistoenpeliculas{
+/* .lomasvistoenpeliculas{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -352,8 +442,8 @@ main{
     margin-top: 7%;
     margin-bottom: 2%;
     text-align: center;
-}
-.lomasvistoenpeliculas .joe-black{ 
+} */
+/* .lomasvistoenpeliculas .joe-black{ 
     margin: 5% 1%;
     padding-bottom: 1%;
     padding-top: 1%;
@@ -448,8 +538,8 @@ main{
     flex-direction: row;
     justify-content: center;
     border-radius: 20px;
-}
-.lomasvistoenpeliculas .howtolose a img{
+} */ */
+/* .lomasvistoenpeliculas .howtolose a img{
     display: flex;
     margin-top: 5%;
     width: 184px ;
@@ -462,7 +552,7 @@ main{
     text-align: center;
 }
 /* SECCIÓN SERIES POPULARES */
-.popu-series{
+/* .popu-series{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -566,8 +656,8 @@ main{
     width: 184px ;
     height: 273px;
     justify-content:center;
-}
-.popu-series .vis-a-vis{ 
+} */
+/* .popu-series .vis-a-vis{ 
     margin: 5% 1%;
     padding-bottom: 1%;
     padding-top: 1%;
@@ -612,7 +702,7 @@ main{
     justify-content:center;
 }
 /* SECCIÓN LO MÁS VISTO EN SERIES */
-.visto-series{
+/* .visto-series{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -731,8 +821,8 @@ main{
     flex-direction: row;
     justify-content: center;
     border-radius: 20px;
-}
-.visto-series .casadepapel a img{
+} */
+/* .visto-series .casadepapel a img{
     display: flex;
     margin-top: 5%;
     width: 184px ;
@@ -753,14 +843,14 @@ main{
     flex-direction: row;
     justify-content: center;
     border-radius: 20px;
-}
-.visto-series .breaking-bad a img{
+} */ */
+/* .visto-series .breaking-bad a img{
     display: flex;
     margin-top: 5%;
     width: 184px ;
     height: 273px;
-    justify-content:center;
-}
+    justify-content:center; */
+/* } */
 /* Aquí comienza el footer */
 footer {
     width: 100%;
@@ -1121,7 +1211,7 @@ form div input {
   .detail-genres{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap:nowrap;
     justify-content: space-between;
     max-width: 1200px;
     margin: auto;
@@ -1187,7 +1277,7 @@ form div input {
    .detailsG {
      background-color: #080f28;
      display: flex;
-     flex-wrap: wrap;
+     flex-wrap: nowrap;
      justify-content: space-around;
      width: 100%;
      height: 30%;
