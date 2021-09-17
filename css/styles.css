@@ -951,7 +951,7 @@ form div input {
 /* Comienza el index de Generos */
 
 .maing-container{
-    color: white;
+    color:white;
 }
 
 .maing-container h2{
@@ -986,7 +986,7 @@ form div input {
 
 .moviesg-container div{
     /* border-style: solid; */
-    border-color: #007aff;
+    border-color: white;
 }
 
 .seriesg-container{
@@ -1001,7 +1001,7 @@ form div input {
 
 .seriesg-container div{
     /* border-style: solid; */
-    border-color: #007aff;
+    border-color: white;
 }
 
 .pelisflex{
