@@ -101,7 +101,6 @@ header{
 
 main{
     max-width:  2000px;
-    height: 1000%;
     padding: 1% 5%;
     justify-content: center;
     margin: auto;
@@ -121,6 +120,11 @@ main{
 }
 
 /* SECCIÓN LO MÁS VISTO EN PELÍCULAS */
+
+.main-container div{
+    width: 18%;
+}
+
 .peliculas-populares{
     display: flex;
     flex-wrap: wrap;
@@ -133,8 +137,8 @@ main{
 .peliculas-populares a{
     display: inline-block;
     justify-content: center;
-    width: 184px;
-    height: 286.2px;
+    /* width: 184px;
+    height: 286.2px; */
 }
 .peliculas-populares p{
     color: white;
@@ -171,8 +175,8 @@ main{
     display: flex;
     flex-wrap: wrap;
     background-color:#007aff;
-    width: 220.38px;
-    height: 400.88;
+    /* width: 220.38px;
+    height: 400.88; */
     padding-left: 1%;
     padding-right: 1%;
     flex-direction: row;
@@ -187,8 +191,8 @@ main{
     display: flex;
     flex-wrap: wrap;
     background-color:#007aff;
-    width: 220.38px;
-    height: 400.88;
+    /* width: 220.38px;
+    height: 400.88; */
     padding-left: 1%;
     padding-right: 1%;
     flex-direction: row;
@@ -215,8 +219,8 @@ main{
     display: flex;
     flex-wrap: wrap;
     background-color:#007aff;
-    width: 220.38px;
-    height: 400.88;
+    /* width: 220.38px;
+    height: 400.88; */
     padding-left: 1%;
     padding-right: 1%;
     flex-direction: row;
@@ -226,8 +230,8 @@ main{
 .peliculas-populares .la-chica-danesa a img{
     display: flex;
     margin-top: 5%;
-    width: 184px ;
-    height: 273px;
+    /* width: 184px ;
+    height: 273px; */
     justify-content:center;
 }
 .peliculas-populares .la-chica-danesa h3{
@@ -242,8 +246,8 @@ main{
     display: flex;
     flex-wrap: wrap;
     background-color:#007aff;
-    width: 220.38px;
-    height: 400.88;
+    /* width: 220.38px;
+    height: 400.88; */
     padding-left: 1%;
     padding-right: 1%;
     flex-direction: row;
@@ -269,8 +273,8 @@ main{
     display: flex;
     flex-wrap: wrap;
     background-color:#007aff;
-    width: 220.38px;
-    height: 400.88;
+    /* width: 220.38px;
+    height: 400.88; */
     padding-left: 1%;
     padding-right: 1%;
     flex-direction: row;
@@ -1118,7 +1122,7 @@ form div input {
 
 
 /* /*Aquí empieza el detail-genres/* */
-  .detail-genres{
+.detail-genres{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1126,12 +1130,13 @@ form div input {
     max-width: 1200px;
     margin: auto;
     background-color: #080f28
-  }
-  .fotodrama img{
+}
+.fotodrama img{
       border-radius: 50%;
       width: 8%;
-  }
-  .genres-box{
+}
+  
+.genres-box{
     margin: 5% 1%;
     padding-bottom: 1%;
     padding-top: 1%;
@@ -1145,27 +1150,31 @@ form div input {
     flex-direction: row;
     justify-content: center;
     border-radius: 20px;
-  }
-  .genres-box img {
+}
+  
+.genres-box img {
     margin-top: 5%;
     width: 184px ;
     height: 273px;
-  }
-  .genres-box h3{
+}
+  
+.genres-box h3{
     margin-top: 7%;
     margin-bottom: 2%;
     text-align: center;
     color: white;
-  }
-  .genres-box p{
+}
+  
+.genres-box p{
     color: white;
     margin-top: 2%;
     text-align: center;
     font-size: 12px;
     margin-bottom: 5%;
 
-  }
-  .detail-generos h2{
+}
+  
+.detail-generos h2{
     color:white;
    background-color: #080f28;
    border-radius: 15px;
@@ -1174,8 +1183,9 @@ form div input {
    padding: 10px 10px;
    font-weight: 700;
    text-align: left;
-   }
-   .detailsG-tittle h3{
+}
+   
+.detailsG-tittle h3{
    color:white;
    border-radius: 15px;
    width: 100%;
@@ -1183,8 +1193,9 @@ form div input {
    font-weight: 700;
    text-align: left;
    background-color: #080f28;
-   }
-   .detailsG {
+}
+   
+.detailsG {
      background-color: #080f28;
      display: flex;
      flex-wrap: wrap;
@@ -1194,4 +1205,17 @@ form div input {
      padding: 1px 10px;
      color: white;
      border-radius:20px ;
-   }
+}
+
+.endgame h2 {
+    display: inline-block;
+    width:1900px ;
+    background-color: #080f28;
+    margin-bottom: 1%;
+    padding: 10px 10px;
+    padding-left: 10px;
+    color:white;
+    font-weight: 700;
+    text-align: left;
+    border-radius: 15px;
+}
