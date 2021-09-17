@@ -992,20 +992,25 @@ form div input {
 
 /* Aca comienza el detail-movies.html */
 
-/* .detail-movies-container{
-
+.endgame{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 30%;
+    padding: 10px 10px;
+    color: white;
 }
- */
 
  .detail-marvel-endgame{
-    margin: 5% 1%;
+    margin: 5% 1% 5% 3%;
     padding-bottom: 1%;
     padding-top: 1%;
     display: flex;
     flex-wrap: wrap;
     background-color:#007aff;
      width: 220.38px;
-    height: 400.88;
+    height: 400.88px;
     /* width: 1200px;
     height: 380px; */
     padding-left: 1%;
@@ -1015,6 +1020,35 @@ form div input {
     border-radius: 20px;
 }
 
+.endgame-container{
+    display: flex;
+    background-color:#080f28;
+    justify-content: left;
+    margin-top: 0%;
+    width: 1900px;
+    padding: 0%;
+    border-radius: 20px;
+}
+
+.sinopsis-endgame{
+    margin-top: 5%;
+    margin-right: 3%;
+    text-align: left;
+}
+
+.endgamefavs{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+}
+
+.star{
+    color: yellow;
+}
+
+.xx{
+    max-height: 400.88;
+}
 /* .detail-marvel-endgame img{
     width:384px;
     height: 473px;
