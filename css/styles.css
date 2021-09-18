@@ -108,12 +108,13 @@ header{
     display: flex;
     /* background-color:green; */
     justify-content: space-around;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    /* margin-top: 1%;
+    margin-bottom: 1%; */
     max-width: 1900px;
     padding: 1%;
     border-radius: 20px;
-    min-width: 300px;
+    min-width: 250px;
+    margin:0 auto;
 }
 /* .titulos {
     background-color:#080f28;
@@ -142,50 +143,70 @@ header{
 .popu-pelis {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    align-items: center;
+    justify-content:space-between;
     flex-wrap: wrap;
     background-color: #080f28;
-    margin:  0;
+    margin-top:  0%;
     max-width: 1900px;
     border-radius: 20px;
-    padding: 1%;
+    padding: 2%;
+    min-height: 25vh;
+    max-height: 70vh;
+    height: 45vh;
+    min-height: 10vh;
 }
 .popu-pelis article{
-    margin: 0%;
-    padding-bottom: 1%;
-    padding-top: 1%;
+    margin:0% 1%;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     background-color:#007aff ;
-    max-width: 5%;
-    padding-left: 1%;
-    padding-right: 1%;
+    width: 0%;
     flex-direction: column;
     justify-content: center;
     border-radius: 20px;
+    height: 40vh;
+    padding: 1%;
 }
 article div{
     display: flex;
     justify-content: flex-end;
+    margin: 0px;
+    padding: 0px;
    
 }
- .imagen a img{
-    max-width: 95%; 
-    padding: 10px;
+ /* .imagen a img{
+     display: block;
+     margin: 0;
+     width: 60%; 
+} */
+.imagen a img{
+    display: inline-block;
+    margin: 0 ;
+    max-width: 80%;
+    padding: 0% 3% ;
+    width:1% auto;
+    max-height: 35vh;
+    
 }
 article p{
     color: white;
-    margin-top: 2%;
+    /* margin-top: 2%; */
     text-align: center;
     font-size: 12px;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
+    max-width: 80%;
+    margin: 3px auto;
+    padding-top: 0.5%;
 }
 article h3{
-    margin-top: 7%;
-    margin-bottom: 2%;
+    /* margin-top: 7%;
+    margin-bottom: 2%; */
     text-align: center;
-    max-width: 95%;
+    max-width: 90%;
     color: white;
+    margin:4px  15px;
+    padding: 0.5% 0%  ;
 }
 /* Aquí comienza el main */
 /* 
