@@ -1146,90 +1146,189 @@ form div input {
 
 
 /* Aca comienza el detail-movies.html */
-
-.endgame{
+.detailmoviesdiv-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    background-color: #080f28;
     width: 90%;
-    padding: 10px 10px;
-    color: white;
-    margin: auto;
+    margin: 3%;
+    padding: 15px 10px 15px 10px;
+    border-radius: 15px;
 }
 
- .detail-marvel-endgame{
-    margin: 5% 1% 5% 3%;
-    padding: 1% 0%;
+.detailmovie-container h2{
+    background-color: #080f28;
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+    width: 90%;
+    margin: 3% 3% 0% 3%;
+}
+
+.detailmovieficha-container{
     display: flex;
     flex-wrap: wrap;
-    background-color:#007aff;
-    width: 35;
-    padding-left: 1%;
-    padding-right: 1%;
-    flex-direction: column;
-    justify-content:center;
-    border-radius: 20px;
-}
-.detail-marvel-endgame p{
-    text-align: center;
-    margin: 5%;
-}
-.detail-marvel-endgame h3{
-    text-align: center;
-    margin: 5%;
-}
-.endgame-container{
-    display: flex;
-    background-color:#080f28;
-    justify-content: left;
-    margin-top: 0%;
-    width: 1900px;
-    padding: 0%;
-    border-radius: 20px;
-}
-
-.sinopsis-endgame{
-    margin-top: 5%;
-    margin-right: 3%;
-    text-align: left;
-}
-
-.sinopsis-endgame div{
-    border-radius: 15px;
-    background-color: #007aff;
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
     width: 25%;
-    text-align: center;
+    height: 420px;
+    margin-left: 40px;
+    border-radius: 15px;
+    background-color:#007aff;
+    color: white;
 }
 
-.sinopsis-endgame h2{
-    text-align: center;
+.detailmovieficha-container img{
+    width: 85%;
 }
 
-.sinopsis-endgame h3 .mover{
+.detailmovieficha-container h3{
+    margin: 5% 0% 0% 0%;
+}
+
+.detailmovieficha-container p{
+    margin: 0%;
+}
+
+.detailmoviessinopsis-container{
+    width: 50%;
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    color: white;
+    margin: 0% 5% 0% 5%;
 }
 
+.detailmoviessinopsis-container h3{
+    margin:3px;
+}
 
-.endgamefavs{
-    display: inline-block;
+.detailmoviesfavoritos{
+    margin-top: 10px;
+    width: 220px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #007aff;
+    border-radius: 15px;
+    color: white;
     text-decoration: none;
-    color:white;
+    border-style: solid;
 }
 
-.star{
+.detailmoviesfavoritos h3{
+    margin: 0px 0px 0px 6px;
+    color: white; 
+}
+
+.detailmoviesfavoritos i{
+    margin:5px 5px 5px 5px;
     color: yellow;
+} 
+
+.detailmoviesfavoritos a{
+    text-decoration: none;
 }
 
-.xx{
-    max-height: 400.88;
+.detailmoviesalinearfavoritos{
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
 }
- .detail-marvel-endgame img{
-     display: block;
-     margin: 5% auto;
-     width:80%;
-   
+
+/* Aca comienza el detailseries.html */
+
+.detailseriesdiv-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #080f28;
+    width: 90%;
+    margin: 3%;
+    padding: 15px 10px 15px 10px;
+    border-radius: 15px;
+}
+
+.detailseries-container h2{
+    background-color: #080f28;
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+    width: 90%;
+    margin: 3% 3% 0% 3%;
+}
+
+.detailseriesficha-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
+    width: 25%;
+    height: 420px;
+    margin-left: 40px;
+    border-radius: 15px;
+    background-color:#007aff;
+    color: white;
+}
+
+.detailseriesficha-container img{
+    width: 85%;
+}
+
+.detailseriesficha-container h3{
+    margin: 5% 0% 0% 0%;
+}
+
+.detailseriesficha-container p{
+    margin: 0%;
+}
+
+.detailseriessinopsis-container{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin: 0% 5% 0% 5%;
+}
+
+.detailseriessinopsis-container h3{
+    margin:3px;
+}
+
+.detailseriesfavoritos{
+    margin-top: 10px;
+    width: 220px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #007aff;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    border-style: solid;
+}
+
+.detailseriesfavoritos h3{
+    margin: 0px 0px 0px 6px;
+    color: white; 
+}
+
+.detailseriesfavoritos i{
+    margin:5px 5px 5px 5px;
+    color: yellow;
 } 
+
+.detailseriesfavoritos a{
+    text-decoration: none;
+}
+
+.detailseriesalinearfavoritos{
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+}
 
 
 /* Aqui empieza resultados de busqueda */
