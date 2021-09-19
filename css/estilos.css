@@ -1,0 +1,569 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
+}
+
+input{
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
+}
+
+body{
+    background-image: url(../img/fondobody.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
+}
+
+/* Aqui comienza el header */
+
+body header{
+    background-color: #080f28;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 125px;
+}
+
+.header-nav a{
+    text-decoration: none;
+    color: white;  
+    margin-top: 10px;
+    padding: 10px 45px;
+    background-color:#007aff;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+.header-registro{
+    display: flex;
+    align-items: center;
+}
+
+.header-registro a input{
+    border: white;
+    border-width: 2px;
+    border-style:solid;
+    color:white;  
+    background-color: #007aff;
+    padding: 10px 10px;
+    border-radius: 30px;
+    margin-top: 0px;
+    margin-bottom:35px ;
+}
+
+.header-busqueda {
+    display: flex;
+    align-items: center;   
+}
+
+.lupa{
+    color:#1888ffe1;
+    margin:0px 0px 36px 10px;
+}
+
+.header-busqueda input {
+    border:none;  
+    background-color: #007aff;
+    padding: 10px 10px;
+    border-radius: 30px;
+    margin-bottom: 33px;
+}
+::placeholder{
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+header{
+    background-image: url(../img/fondoclaro.jpg);
+    max-width: 100%;
+}
+.logo {
+    max-width: 135px;
+    max-height: 135px;
+} 
+.header-nav{
+    padding: 40px 0px 0px 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#logo{
+    padding: 0px 0px 0px 0px;
+}
+/* Aquí comienza el footer */
+footer {
+    width: 100%;
+    padding: 30px 20px;
+    background-color: #080f28;
+    height: 3%;
+    background-size: cover;
+    border-top-right-radius: 7%;
+    border-top-left-radius: 7%;
+    margin-top: 3%;
+}
+
+.container_footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1900px;
+    margin: auto;
+    background-color:#080f28;
+    background-size: cover;
+    padding: 2% 5%;
+    border-top-right-radius: 15%;
+    border-top-left-radius: 15%;
+}
+.box-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.box-footer .logo img {
+    width: 200px;
+}
+.box-footer .terms {
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color:white;
+    font-size: 18px;
+}
+.box-footer h2 {
+    margin-bottom: 20px;
+    color:white;
+    font-weight: 700;
+}
+.box-footer a {
+    color: white;
+    margin-top: 20px;
+    font-weight: 650;
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.box-footer a .fab {
+    font-size: 25px;
+}
+.box-copyright {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 20px;
+    color: white;
+}
+.box-copyright p {
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 17px;
+}
+.box-copyright hr{
+    background-color: white;
+    width: 1200px;
+    border: none;
+    height: 3px;
+}
+/* Aquí comienza el main */
+
+.titulo{
+    display: inline-block;
+    background-color: #080f28;
+    color: white;
+    max-width: 1900px;
+    margin: 2% 5%;
+    width: 90%;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: left;
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1900px;
+    margin: auto;
+    background-color: #080f28;
+    border-radius: 20px;
+
+}
+.contenedor h2{
+    color:green;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.contenedor .hijo{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color:#080f28;
+}
+.imagen-port{
+    display: block;
+    background-color:#007aff;
+    max-width: 250px;
+    align-items: center;
+    margin: 4%;
+    padding: 2%;
+    border-radius: 15px;
+   
+}
+.imagen-port img{
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding-top: 10%;
+}
+.imagen-port h3{
+    margin-top: 15px;
+    margin-bottom:  15px;
+    color:white;
+    text-align: center;
+    width: 100%;
+}
+.imagen-port p{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+/* Aqui comienza el registro y login*/
+
+.div-registro{
+    display: flex;
+    justify-content: space-around;
+    background-color: #080f28;
+    padding: 5%;
+    color:white;
+    font-weight: 700;
+    text-align: left;
+    border-radius: 15px;
+    font-size: 25px;
+    max-width: 1000px;
+    margin: 4%;
+}
+
+.main-registro{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.h1-registro{
+    margin-top: 0px;
+}
+
+.h1-login{
+    margin-top: 0px;
+}
+
+form {
+    display: inline-block;
+    justify-content: center;
+    max-width: 100%;
+}
+
+form div input {
+    display: block;
+    justify-content: flex-end;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border:none;
+    color: white;  
+    background-color: #007aff;
+    padding: 8px 60px;
+    text-align: left;
+    border-radius: 30px;
+}
+
+.nacionalidad-registro{
+    display: block;
+    margin-top: 15px;
+    border:none;
+    color: white;  
+    background-color: #007aff;
+    padding: 8px 60px;
+    text-align: left;
+    border-radius: 30px;
+}
+form div label{
+    margin:1%;
+}
+/* Terminos y condiciones del registro */
+
+.terminos-registro {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.terminos-registro input{
+    background-color: #007aff;
+    margin-top: 25px;
+    margin-left: 10px;
+    border-radius: 30px;
+
+}
+
+.terminos-registro label{
+ 
+    font-size: 15px;
+    margin-top: 5%;
+
+}
+
+
+/* Boton registrarse */
+
+.boton-registro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+   
+}
+
+.boton-registro a{
+    text-decoration: none;
+   
+}
+
+
+/* Boton de volver del registro y login*/
+
+.boton-volver{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boton-volver a {
+    text-decoration: none;
+   
+}
+
+
+/* Boton login */
+
+.boton-login{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+   
+}
+
+.boton-login a{
+    text-decoration: none;
+}
+
+/* Comienza el index de Generos */
+
+.maing-container{
+    color:white;
+}
+
+.maing-container h2{
+    background-color: #080f28;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: 700;
+    width: 90%;
+    margin:3% auto;
+}
+
+.maing-container h3{
+    margin: 0px;
+}
+
+.genres-container{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #080f28;
+    border-radius: 15px;
+    justify-content: center;
+    margin: 3% auto;
+    padding: 10px;
+}
+
+.moviesg-container{
+    width: 50%;
+    text-align: center;
+}
+
+.moviesg-container a{
+    text-decoration: none;
+    color: white;
+}
+
+.moviesg-container div{
+    border-color: white;
+}
+
+.seriesg-container{
+    width: 50%;
+    text-align: center;
+}
+
+.seriesg-container a{
+    text-decoration: none;
+    color: white;
+}
+
+.seriesg-container div{
+    border-color: white;
+}
+
+.pelisflex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.pelisflex div{
+    width: 30%;
+    margin: 5px;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: #007aff;
+}
+/* Aqui empieza resultados de busqueda */
+
+.main-container-result{
+    display: flex;
+    background-color:#080f28;
+    justify-content: space-around;
+    margin: 0%;
+    width: 1900px;
+    padding: 0%;
+    border-radius: 20px;
+}
+
+.resultados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 30%;
+    padding: 10px 10px;
+    color: white;
+}
+.resultados h2{
+    width: 100%;
+    display: inline-block;
+    background-color: #080f28;
+    margin-bottom: 1%;
+    padding: 10px 10px;
+    color:white;
+    font-weight: 700;
+    text-align: left;
+    border-radius: 15px;
+}
+
+.resultados h3 {
+    width: 100%;
+    background-color: #080f28;
+    margin-bottom: 1%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 5px;
+    text-align: left;
+    border-radius: 15px;
+}
+/* Aca comienza el detail-movies.html */
+
+.endgame{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    padding: 10px 10px;
+    color: white;
+    margin: auto;
+}
+
+ .detail-marvel-endgame{
+    margin: 5% 1% 5% 3%;
+    padding: 1% 0%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#007aff;
+    width: 35;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-direction: column;
+    justify-content:center;
+    border-radius: 20px;
+}
+.detail-marvel-endgame p{
+    text-align: center;
+    margin: 5%;
+}
+.detail-marvel-endgame h3{
+    text-align: center;
+    margin: 5%;
+}
+.endgame-container{
+    display: flex;
+    background-color:#080f28;
+    justify-content: left;
+    margin-top: 0%;
+    width: 1900px;
+    padding: 0%;
+    border-radius: 20px;
+}
+
+.sinopsis-endgame{
+    margin-top: 5%;
+    margin-right: 3%;
+    text-align: left;
+}
+
+.sinopsis-endgame div{
+    border-radius: 15px;
+    background-color: #007aff;
+    width: 25%;
+    text-align: center;
+}
+
+.sinopsis-endgame h2{
+    text-align: center;
+}
+
+.sinopsis-endgame h3 .mover{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.endgamefavs{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+}
+
+.star{
+    color: yellow;
+}
+
+.xx{
+    max-height: 400.88;
+}
+ .detail-marvel-endgame img{
+     display: block;
+     margin: 5% auto;
+     width:80%;
+   
+} 
