@@ -1146,6 +1146,7 @@ form div input {
 
 
 /* Aca comienza el detail-movies.html */
+
 .detailmoviesdiv-container{
     display: flex;
     flex-wrap: wrap;
@@ -1377,6 +1378,7 @@ form div input {
 
 
 /* /*Aquí empieza el detail-genres/* */
+
 .detail-genres{
     display: flex;
     flex-direction: row;
