@@ -674,9 +674,61 @@ form div label{
 }
 
 /* Aca comienza el detail-genres.html */
+
 .fotodrama img{
       border-radius: 50%;
       width: 8%;
       margin: 1.5% 6% ;
 }
-  
+
+/* Aca comienza el favourite.html */
+
+.favoritos-container h2{
+      border-radius: 15px;
+      background-color: #080f28;
+      color: white;
+      padding: 10px;
+      font-weight: 700;
+      width: 90%;
+      margin: 3% 5% 0% 5%;
+}
+
+.endgamefavoritos-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #080f28;
+    width: 90%;
+    margin: 3% 5% 3% 5%;
+    padding: 15px 10px;
+    border-radius: 15px;
+}
+
+.endgamefavoritosficha-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 25%;
+    padding: 20px 0px 15px 0px;
+    background-color: #007aff;
+    color: white;
+    border-radius: 15px;
+}
+
+.endgamefavoritosficha-container img{
+    width: 90%;
+}
+
+.endgamefavoritosficha-container a{
+    text-align: center;
+}
+
+.endgamefavoritosficha-container h3{
+    width: 100%;
+    text-align: center;
+}
+
+.endgamefavoritosficha-container p{
+    width: 100%;
+    text-align: center;
+}
