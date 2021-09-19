@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilos.css">
-    <title>Login</title>
+    <title>Géneros</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 </head>
 <body>
@@ -18,17 +18,17 @@
                 <a href="./index.html">Inicio</a> 
             </div>
             <div class="header-nav">
-                <a href="./generos.html">Géneros</a> 
+                <a href="./genres.html">Géneros</a> 
             </div>
             <div class="header-nav">
                 <a href="./detail-movies.html">Películas</a>
             </div>
             <div class="header-nav">
                 <a href="./detail-series.html">Series</a>
-            </div>    
+            </div>   
             <div class="header-nav">
                 <a href="./favourite.html">Favoritos</a>
-            </div>    
+            </div>      
             <div class= "header-busqueda" >
                 <input type="search" name="busqueda" value="" placeholder="Buscar películas o series">
                 <a href="./results.html"><i class="fas fa-search lupa"></i></a>
@@ -42,38 +42,51 @@
         </nav>  
     </header>
 
-    <main class="main-registro" >
-        <div class="div-registro">
-            <form action="./results.html" method="GET" class="formulario">
-                <h1 class="h1-login"> Login</h1>
-                
-                <div>
-                    <label for="nombre">Nombre</label>
-                    <input type="text" name="nombre" value="" required>
-                </div> 
-     
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" value="" required>
-                </div>
-     
-                <div>
-                    <label for="password">Contraseña</label>
-                    <input type="password" name="contraseña" value="">               
-                </div>
-
-                <div class="boton-login">
-                    <input type="button" value="Login">
-                    <a href="./login.html"><input type="button" value="Cancelar"></a>
-                </div>
-
-                <div class="boton-volver">
-                    <a href="./index.html"><input type="button" value="Volver"> </a>   
-                </div>             
-            </form>
+    <main>
+        <div class="titulo">
+            <h2> • GÉNEROS •</h2>
         </div>
+        <div class="titulo">
+            <h2> • PELÍCULAS •</h2>
+        </div>
+            <section class="contenedor">
+                
+                <div class="genero">
+                    
+                        <a href="./detail-genres.html"><img src="./img/drama (4).png" alt=""></a>
+                        <a href="./detail-genres.html"><img src="./img/accion.png" alt=""></a>
+                        <a href="./detail-genres.html"><img src="./img/documental (2).png" alt=""></a>
+                        <a href="./detail-genres.html"><img src="./img/romance.png" alt=""></a>
+                        <a href="./detail-genres.html"><img src="./img/terror (3).png" alt=""></a>
+                        <a href="./detail-genres.html"><img src="./img/musical.png" alt=""></a>
+                        <a href="./detail-genres.html"><img src="./img/fantasia.png" alt=""></a>
+                        <a href="./detail-genres.html"><img src="./img/ciencia ficcion (2).png" alt=""></a>
+                        <a href="./detail-genres.html"><img src="./img/familiar.png" alt=""></a>
+                        <a href="./detail-genres.html"><img src="./img/aventura.png" alt=""></a>
+                </div>
+            </section>
+            <div class="titulo">
+                <h2> • SERIES •</h2>
+            </div>
+                <section class="contenedor">
+                    
+                    <div class="genero">
+                        
+                            <a href="./detail-genres.html"><img src="./img/drama (4).png" alt=""></a>
+                            <a href="./detail-genres.html"><img src="./img/accion.png" alt=""></a>
+                            <a href="./detail-genres.html"><img src="./img/documental (2).png" alt=""></a>
+                            <a href="./detail-genres.html"><img src="./img/romance.png" alt=""></a>
+                            <a href="./detail-genres.html"><img src="./img/terror (3).png" alt=""></a>
+                            <a href="./detail-genres.html"><img src="./img/musical.png" alt=""></a>
+                            <a href="./detail-genres.html"><img src="./img/fantasia.png" alt=""></a>
+                            <a href="./detail-genres.html"><img src="./img/ciencia ficcion (2).png" alt=""></a>
+                            <a href="./detail-genres.html"><img src="./img/familiar.png" alt=""></a>
+                            <a href="./detail-genres.html"><img src="./img/aventura.png" alt=""></a>
+                    </div>
+                </section>
+
     </main>
-   
+
     <footer>
         <div class="container_footer">
             <div class="box-footer">
@@ -84,6 +97,7 @@
                     <p> D&I Films es un servicio de streaming gratuito que tiene como objetivo que todas las personas puedan accerder a contenido de calidad. Surge como una iniciativa de la coorporativa D&I Code, encabezada y desarrollada por sus dueños fundadores Chiterer Sebastian, Denham Tobias y Teperman Ana.</p>
                 </div>
             </div>
+
             <div class="box-footer">
                 <h2> NOSOTROS </h2>
                 <a href="#">¿Quiénes somos?</a>
@@ -105,6 +119,7 @@
     
                 <a href="#">Privacidad</a>
             </div>
+
             <div class="box-footer">
                 <h2> REDES SOCIALES </h2>
                 <a href="#"> <i class="fab fa-instagram"></i> Instagram</a>       
@@ -112,10 +127,13 @@
                 <a href="#"><i class="fab fa-youtube"></i> Youtube</a>   
                 <a href="#"><i class="fab fa-amazon"></i> Amazon</a>              
             </div>
+
             <div class="box-copyright">
                 <hr>
                 <p>Todos los derechos reservados <i class="far fa-copyright"></i> 2021 <b>D&I Films</b></p>
             </div>
+        </div>
     </footer>    
+    
 </body>
 </html>
