@@ -1,363 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>Inicio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-</head>
-<body>
-    <header>       
-        <nav>
-            <div id="logo">
-                <a href="index.html"> <img class="logo" src="./img/logo-blanco-3.png" alt="Logo de la pagina"></a>
-            </div>
-            <div class="header-nav">
-                <a href="./index.html">Inicio</a> 
-            </div>
-            <div class="header-nav">
-                <a href="./genres.html">Géneros</a> 
-            </div>
-            <div class="header-nav">
-                <a href="./detail-movies.html">Películas</a>
-            </div>
-            <div class="header-nav">
-                <a href="./detail-series.html">Series</a>
-            </div>   
-            <div class="header-nav">
-                <a href="./favourite.html">Favoritos</a>
-            </div>
-            <div class= "header-busqueda">
-                <input type="search" name="busqueda" value="" placeholder="Buscar películas o series">
-                <a href="./results.html"><i class="fas fa-search lupa"></i></a>
-            </div>
-            <div class="header-registro">
-                <a href="./register.html"><input type="button" value="Registrarse"></a>
-             </div> 
-            <div class="header-registro">
-                <a href="./login.html"><input type="button" value="Login"></a>
-            </div>
-        </nav>  
-    </header>
-    <!-- <main>
-        <div class="peliculas-populares">
-            <h2>• PELÍCULAS POPULARES •</h2>
-              <div class="main-container">
-                <div class="marvel-endgame">
-                    <a href="detail-movies.html"><img src="./img/marvel-endgame.jfif" alt="Ficha end game"></a>
-                    <h3>MARVEL: END GAME</h3>
-                    <p>2019 ‧ Acción/Ciencia ficción ‧ 3h 2m</p>
-                    <!-- <div>
-                    <a class="star-a" href="./favourite.html"><i class="fas fa-star"></i></a>
-                    </div> -->
-                <!-- </div>
-                <div class="the-last-song">
-                    <a href="detail-movies.html"><img src="./img/thelastsong.jfif" alt="Ficha de the last song"></a>
-                    <h3>    THE LAST SONG    </h3>
-                    <p>2010 ‧ Romance/Drama ‧ 1h 47m</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/estilos.css">
+        <title>Inicio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        <title>Inicio</title>
+    </head>
+    <body>
+        <header>       
+            <nav>
+                <div id="logo">
+                    <a href="index.html"> <img class="logo" src="./img/logo-blanco-3.png" alt="Logo de la pagina"></a>
                 </div>
-                <div class="la-chica-danesa">
-                    <a href="detail-movies.html"><img src="./img/la-chica-danesa.jpg" alt="Ficha de La chica danesa"></a>
-                    <h3>LA CHICA DANESA</h3>
-                    <p>2015 ‧ Romance/Drama ‧ 1h 59m</p>
+                <div class="header-nav">
+                    <a href="./index.html">Inicio</a> 
                 </div>
-                <div class="sherlock-holmes">
-                <a href="detail-movies.html"><img src="./img/sherlock-holmes.jfif" alt="Ficha de Sherlock Holmes"></a>
-                    <h3>SHERLOCK HOLMES</h3>
-                    <p>2009 ‧ Misterio/Misterio ‧ 2h 8m</p>
+                <div class="header-nav">
+                    <a href="./genres.html">Géneros</a> 
                 </div>
-                <div class="lucy">
-                    <a href="detail-movies.html"><img src="./img/lucy.jfif" alt="Ficha de Lucy"></a>
-                    <h3>LUCY</h3>
-                    <p>2014 ‧ Acción/Ciencia ficción ‧ 1h 30m</p>
+                <div class="header-nav">
+                    <a href="./detail-movies.html">Películas</a>
                 </div>
-            </div>
-        </div>
-        <div class="lomasvistoenpeliculas">
-            <h2>• LO MÁS VISTO EN PELÍCULAS •</h2>
-              <div class="main-container">
-                <div class="los-ilusionistas">
-                    <a href="detail-movies.html"><img src="./img/los ilusionistas.jfif" alt="Ficha Los Ilusionistas"></a>
-                    <h3>LOS ILUSIONISTAS: NADA ES LO QUE PARECE</h3>
-                    <p>2013 ‧ Crimen/Suspenso ‧ 1h 55m</p>
+                <div class="header-nav">
+                    <a href="./detail-series.html">Series</a>
+                </div>   
+                <div class="header-nav">
+                    <a href="./favourite.html">Favoritos</a>
                 </div>
-                <div class="joe-black">
-                    <a href="detail-movies.html"><img src="./img/JOE-BLACK.jfif" alt="Ficha JOe Black"></a>
-                    <h3> ¿CONOCES A JOE BLACK? </h3>
-                    <p>1998 ‧ Romance/Fantasía ‧ 3h 1m</p>
+                <div class= "header-busqueda">
+                    <input type="search" name="busqueda" value="" placeholder="Buscar películas o series">
+                    <a href="./results.html"><i class="fas fa-search lupa"></i></a>
                 </div>
-                <div class="marvel-endgame">
-                    <a href="./detail-movies.html"><img src="./img/marvel-endgame.jfif" alt="Ficha end game"></a>
-                    <h3>MARVEL: END GAME</h3>
-                    <p>2019 ‧ Acción/Ciencia ficción ‧ 3h 2m</p>
+                <div class="header-registro">
+                    <a href="./register.html"><input type="button" value="Registrarse"></a>
+                 </div> 
+                <div class="header-registro">
+                    <a href="./login.html"><input type="button" value="Login"></a>
                 </div>
-                <div class="nerve">
-                <a href="detail-movies.html"><img src="./img/nerve.jpg" alt="Ficha de Nerve"></a>
-                    <h3>NERVE:UN JUEGO SIN REGLAS</h3>
-                    <p>2016 ‧ Suspenso/Acción ‧ 1h 36m</p>
-                </div>
-                <div class="howtolose">
-                    <a href="detail-movies.html"><img src="./img/HTLAMI10D.jpg" alt="Ficha de How to lose a man in 10 days"></a>
-                    <h3>CÓMO PERDER A UN HOMBRE EN 10 DÍAS</h3>
-                    <p>2003 ‧ Romance/Comedia romántica ‧ 1h 56m</p>
-                </div>
-            </div>
-        </div>
-        <div class="popu-series">
-            <h2>• SERIES POPULARES •</h2>
-              <div class="main-container">
-                <div class="casadepapel">
-                    <a href="detail-series.html"><img src="./img/casadepapel.jfif" alt="Ficha casa de papel"></a>
-                    <h3>LA CASA DE PAPEL</h3>
-                    <p>2017 ‧ Suspenso ‧ 5 temporadas</p>
-                </div>
-                <div class="anne">
-                    <a href="detail-series.html"><img src="./img/anne.jfif" alt="Ficha de Anne with an E"></a>
-                    <h3>    ANNE WITH AN E   </h3>
-                    <p>2017 ‧ Coming-of-age ‧ 3 temporadas</p>
-                </div>
-                <div class="los100">
-                    <a href="detail-series.html"><img src="./img/los100.jpg" alt="Ficha de Los 100"></a>
-                    <h3>LOS 100</h3>
-                    <p>2014 ‧ Ciencia ficción ‧ 7 temporadas</p>
-                </div>
-                <div class="vis-a-vis">
-                <a href="detail-series.html"><img src="./img/visavis.jfif" alt="Ficha de Vis a Vis"></a>
-                    <h3>VIS A VIS</h3>
-                    <p>2015 ‧ Suspenso ‧ 4 temporadas</p>
-                </div>
-                <div class="outlander">
-                    <a href="detail-series.html"><img src="./img/outlander.jpg" alt="Ficha de outlander"></a>
-                    <h3>OUTLANDER</h3>
-                    <p>2014 ‧ Drama ‧ 5 temporadas</p>
-                </div>
-            </div>
-            <div class="visto-series">
-                <h2>• LO MÁS VISTO EN SERIES •</h2>
-                  <div class="main-container">
-                    <div class="cobrakai">
-                        <a href="detail-series.html"><img src="./img/cobrakai.jfif" alt="Ficha Cobra Kai"></a>
-                        <h3>COBRA KAI</h3>
-                        <p>2018 ‧ Acción ‧ 3 temporadas</p>
-                    </div>
-                    <div class="jane">
-                        <a href="detail-series.html"><img src="./img/jane.jpg" alt="Ficha de Jane the Virgin"></a>
-                        <h3>    JANE THE VIRGIN  </h3>
-                        <p>2014 ‧ Drama ‧ 5 temporadas</p>
-                    </div>
-                    <div class="flash">
-                        <a href="detail-series.html"><img src="./img/flash.png" alt="Ficha de Flash"></a>
-                        <h3> FLASH </h3>
-                        <p>2014 ‧ Ciencia ficción ‧ 7 temporadas</p>
-                    </div>
-                    <div class="casadepapel">
-                        <a href="./detail-series.html"><img src="./img/casadepapel.jfif" alt="Ficha casa de papel"></a>
-                        <h3>LA CASA DE PAPEL</h3>
-                        <p>2017 ‧ Suspenso ‧ 5 temporadas</p>
-                    </div>
-                    <div class="breaking-bad">
-                        <a href="detail-series.html"><img src="./img/breakingbad.jpg" alt="Ficha de breaking bad"></a>
-                        <h3>BREAKING BAD </h3>
-                        <p>2008 ‧ Drama ‧ 5 temporadas</p>
-                    </div>
-                </div>
-    </main> --> -->
-    <main>
-        <div class="main-container">
-            <article class="titulos">
-                <h2>• PELÍCULAS POPULARES •</h2>
-            </article>
-            <div class="popu-pelis">
-                <article>
-                    <div class="imagen">
-                        <a href="detail-movies.html"><img src="./img/marvel-endgame.jpg" alt="Ficha end game"></a>
-                    </div>
-                        <h3>MARVEL: END GAME</h3>
-                        <p>2019 ‧ Acción/Ciencia ficción ‧ 3h 2m</p>
-                </article>
-                <article>
-                    <div class="imagen">
-                        <a href="detail-movies.html"><img src="./img/thelastsong.jfif" alt="Ficha the last song"></a>
-                    </div>
-                        <h3>THE LAST SONG</h3>
-                        <p>2010 ‧ Romance/Drama ‧ 1h 47m</p>
-                </article>
-                <article>
-                    <div class="imagen">
-                        <a href="detail-movies.html"><img src="./img/la-chica-danesa.jpg" alt="Ficha la chica danesa"></a>
-                    </div>
-                        <h3>LA CHICA DANESA</h3>
-                        <p>2015 ‧ Romance/Drama ‧ 1h 59m</p>
-                </article>
-                <article>
-                    <div class="imagen">
-                        <a href="detail-movies.html"><img src="./img/sherlock-holmes.jfif" alt="Ficha Sherlock Holmes"></a>
-                    </div>
-                        <h3>SHERLOCK HOLMES</h3>
-                        <p>2009 ‧ Misterio/Misterio ‧ 2h 8m</p>
-                </article>
-            </div>
+            </nav>  
+        </header>
 
-            <article class="titulos">
-                <h2>• LO MÁS VISTO EN PELÍCULAS •</h2>
-            </article>
-            <div class="popu-pelis">
-                <article>
-                    <div class="imagen">
-                        <a href="detail-movies.html"><img src="./img/los ilusionistas.jfif" alt="Ficha nada es lo que parece"></a>
-                    </div>
-                        <h3> NADA ES LO QUE PARECE</h3>
-                        <p>2013 ‧ Crimen/Suspenso ‧ 1h 55m</p>
-                </article>
-                <article>
-                    <div class="imagen">
-                        <a href="detail-movies.html"><img src="./img/nerve.jpg" alt="Ficha nerve"></a>
-                    </div>
-                        <h3>NERVE: <br>
-                            UN JUEGO SIN REGLAS</h3>
-                        <p>2016 ‧ Suspenso/Acción ‧ 1h 36m</p>
-                </article>
-                <article>
-                    <div class="imagen">
-                        <a href="detail-movies.html"><img src="./img/HTLAMI10D.jpg" alt="Ficha como perder a un hombre en 10 días"></a>
-                    </div>
-                        <h3>CÓMO PERDER A UN HOMBRE EN 10 DÍAS</h3>
-                        <p>2003 ‧Comedia romántica ‧ 1h 56m</p>
-                </article>
-                <article>
-                    <div class="imagen">
-                        <a href="detail-movies.html"><img src="./img/losjuegos.jfif" alt="Ficha los juegos del hambre"></a>
-                    </div>
-                        <h3>LOS JUEGOS DEL HAMBRE:SINSAJO </h3>
-                        <p>2012 ‧ Ciencia ficción ‧ 2h 22m</p>
-                </article>
+        <main>
+            <div class="titulo">
+                <h2> • PELÍCULAS POPULARES •</h2>
             </div>
-            
-            <article class="titulos">
-                <h2>• SERIES POPULARES •</h2>
-            </article>
-            <div class="popu-pelis">
-                <article>
-                    <div class="imagen">
-                        <a href="detail-series.html"><img src="./img/anne.jpeg" alt="Ficha Anne"></a>
-                    </div>
-                        <h3>ANNE WITH AN E</h3>
-                        <p>2017 ‧ Coming-of-age ‧ 3 temporadas</p>
-                </article>
-                <article>
-                    <div class="imagen">
-                        <a href="detail-series.html"><img src="./img/los100.jpg" alt="Ficha the 100"></a>
-                    </div>
-                        <h3>LOS 100 </h3>
-                        <p>2014 ‧ Ciencia ficción ‧ 7 temporadas</p>
-                </article>
-                <article>
-                    <div class="imagen">
-                        <a href="detail-series.html"><img src="./img/visavis.jfif" alt="Ficha vis a vis"></a>
-                    </div>
-                        <h3>VIS A VIS</h3>
-                        <p>2015 ‧ Suspenso ‧ 4 temporadas</p>
-                </article>
-                <article>
-                    <div class="imagen">
-                        <a href="detail-series.html"><img src="./img/outlander.jpg" alt="Ficha outlander"></a>
-                    </div>
-                        <h3>OUTLANDER</h3>
-                        <p>2014 ‧ Drama ‧ 5 temporadas</p>
-                </article>
-             </div>
-
-                <article class="titulos">   
-                    <h2>• LO MÁS VISTO EN SERIES •</h2>
-                </article>
-                    <div class="popu-pelis">
-                        <article>
-                    <div class="imagen">
-                        <a href="detail-series.html"><img src="./img/cobrakai.jfif" alt="Ficha cobra kai"></a>
-                    </div>
-                        <h3>COBRA KAI</h3>
-                        <p>2018 ‧ Acción ‧ 3 temporadas</p>
-                </article>
-                <article>
-                    <div class="imagen">
-                        <a href="detail-series.html"><img src="./img/jane.jpg" alt="Ficha jane"></a>
-                    </div>
-                        <h3>JANE THE VIRGIN</h3>
-                        <p>2014 ‧ Drama ‧ 5 temporadas</p>
-                </article>
-                <article>
-                    <div class="imagen">
-                        <a href="detail-series.html"><img src="./img/flash.png" alt="Ficha flash"></a>
-                    </div>
-                        <h3>FLASH</h3>
-                        <p>2014 ‧ Ciencia ficción ‧ 7 temporada</p>
-                </article>
-                <article>
-                    <div class="imagen">
-                        <a href="detail-series.html"><img src="./img/breakingbad.jpg" alt="Ficha breaking bad"></a>
-                    </div>
-                        <h3>BREAKING BAD</h3>
-                        <p>2008 ‧ Drama ‧ 5 temporadas</p>
-                </article>
-                    </div>
-        </div>
-</main>
-
-    <footer>
-        <div class="container_footer">
-            <div class="box-footer">
-                <div class="logo">
-                    <img src="./img/logo-blanco-3.png" alt="logo">
-                </div>
-                <div class="terms">
-                    <p> D&I Films es un servicio de streaming gratuito que tiene como objetivo que todas las personas puedan accerder a contenido de calidad. Surge como una iniciativa de la coorporativa D&I Code, encabezada y desarrollada por sus dueños fundadores Chiterer Sebastian, Denham Tobias y Teperman Ana.</p>
-                </div>
-            </div>
-
-            <div class="box-footer">
-                <h2> NOSOTROS </h2>
-                <a href="#">¿Quiénes somos?</a>
-
-                <a href="#">Información coorporativa</a>
-
-                <a href="#">Trabajá con nosotros</a>
-
-                <a href="#">Contacto</a>
-            </div>
-
-            <div class="box-footer">
-                <h2> AYUDA </h2>
-                <a href="#">Preguntas frecuentas</a>
-
-                <a href="#">Términos de uso</a>
-
-                <a href="#">Preferencia de cookies</a>
-
-                <a href="#">Privacidad</a>
-            </div>
-
-            <div class="box-footer">
-                <h2> REDES SOCIALES </h2>
-            
-                <a href="#"> <i class="fab fa-instagram"></i> Instagram</a> 
-                   
-                <a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
+                <section class="contenedor">
                     
-                <a href="#"><i class="fab fa-youtube"></i> Youtube</a>
-                   
-                <a href="#"><i class="fab fa-amazon"></i> Amazon</a>              
-            </div>
+                    <div class="hijo">
+                        <div class="imagen-port">
+                            <a href=".detail-movies.html"><img src="./img/marvel-endgame.jpg" alt=""></a>
+                            <h3>MARVEL: END GAME</h3>
+                            <p>2019 ‧ Acción/Ciencia ficción ‧ 3h 2m</p>
+                        </div>
+                    </div>
+                    <div class="hijo">
+                        <div class="imagen-port">
+                            <a href=".detail-movies.html"><img src="./img/thelastsong.jfif" alt=""></a>
+                            <h3>THE LAST SONG </h3>
+                            <p>2010 ‧ Romance/Drama ‧ 1h 47m </p>
+                        </div>
+                    </div>
+                    <div class="hijo">
+                        <div class="imagen-port">
+                            <a href=".detail-movies.html"><img src="./img/la-chica-danesa.jpg" alt=""></a>
+                            <h3>LA CHICA DANESA</h3>
+                            <p>2015 ‧ Romance/Drama ‧ 1h 59m</p>
+                        </div>
+                    </div>
+                    <div class="hijo">
+                        <div class="imagen-port">
+                            <a href=".detail-movies.html"><img src="./img/sherlock-holmes.jfif" alt=""></a>
+                            <h3>SHERLOCK HOLMES</h3>
+                            <p>2009 ‧ Misterio/Misterio ‧ 2h 8m</p>
+                        </div>
+                    </div>
+                    <div class="hijo">
+                        <div class="imagen-port">
+                            <a href=".detail-movies.html"><img src="./img/HTLAMI10D.jpg" alt=""></a>
+                            <h3>CÓMO PERDER </h3>
+                            <p>2003 ‧Comedia romántica ‧ 1h 56m</p>
+                        </div>
+                    </div>
+                </section>
 
-            <div class="box-copyright">
-                <hr>
-                <p>Todos los derechos reservados <i class="far fa-copyright"></i> 2021 <b>D&I Films</b></p>
+                <div class="titulo">
+                    <h2>• LO MÁS VISTO EN PELÍCULAS •</h2>
+                </div>
+                    <section class="contenedor">
+                        
+                        <div .hijo>
+                            <div class="imagen-port">
+                                <a href=".detail-movies.html"><img src="./img/nerve.jpg" alt=""></a>
+                                <h3>NERVE: UN JUEGO SIN LÍMITES </h3>
+                                <p>2016 ‧ Suspenso/Acción ‧ 1h 36m </p>
+                            </div>
+                        </div>
+                        <div class="hijo">
+                            <div class="imagen-port">
+                                <a href=".detail-movies.html"><img src="./img/los ilusionistas.jfif" alt=""></a>
+                                <h3>NADA ES LO QUE PARECE</h3>
+                                <p>2013 ‧ Crimen/Suspenso ‧ 1h 55m</p>
+                            </div>
+                        </div>
+                        <div class="hijo">
+                            <div class="imagen-port">
+                                <a href=".detail-movies.html"><img src="./img/losjuegos.jfif" alt=""></a>
+                                <h3>LOS JUEGOS DEL HAMBRE: SINSAJO</h3>
+                                <p>2012 ‧ Ciencia ficción ‧ 2h 22m </p>
+                            </div>
+                        </div>
+                        <div class="hijo">
+                            <div class="imagen-port">
+                                <a href=".detail-movies.html"><img src="./img/marvel-endgame.jpg" alt=""></a>
+                                <h3>MARVEL AVENGERS: ENDGAME</h3>
+                                <p>2019 ‧ Acción/Ciencia ficción ‧ 3h 2m </p>
+                            </div>
+                        </div>
+                        <div class="hijo">
+                            <div class="imagen-port">
+                                <a href=".detail-movies.html"><img src="./img/JOE-BLACK.jfif" alt=""></a>
+                                <h3>¿QUIÉN CONOCE A JOE BLACK?</h3>
+                                <p>1998 ‧ Romance/Fantasía ‧ 3h 1m </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <div class="titulo">
+                        <h2> • SERIES POPULARES •</h2>
+                    </div>
+                        <section class="contenedor">
+                            
+                            <div .hijo>
+                                <div class="imagen-port">
+                                    <a href=".detail-movies.html"><img src="./img/anne.jpeg" alt=""></a>
+                                    <h3>ANNE WITH AN E</h3>
+                                    <p>2017 ‧ Coming-of-age ‧ 3 temporadas </p>
+                                </div>
+                            </div>
+                            <div class="hijo">
+                                <div class="imagen-port">
+                                    <a href=".detail-movies.html"><img src="./img/breakingbad.jpg" alt=""></a>
+                                    <h3>BREAKING BAD</h3>
+                                    <p>2008 ‧ Drama ‧ 5 temporadas</p>
+                                </div>
+                            </div>
+                            <div class="hijo">
+                                <div class="imagen-port">
+                                    <a href=".detail-movies.html"><img src="./img/los100.jpg" alt=""></a>
+                                    <h3>LOS 100</h3>
+                                    <p>2014 ‧ Ciencia ficción ‧ 7 temporadas</p>
+                                </div>
+                            </div>
+                            <div class="hijo">
+                                <div class="imagen-port">
+                                    <a href=".detail-movies.html"><img src="./img/visavis.jfif" alt=""></a>
+                                    <h3>VIS A VIS</h3>
+                                    <p>2015 ‧ Suspenso ‧ 4 temporadas</p>
+                                </div>
+                            </div>
+                            <div class="hijo">
+                                <div class="imagen-port">
+                                    <a href=".detail-movies.html"><img src="./img/outlander.jpg" alt=""></a>
+                                    <h3>OUTLANDER</h3>
+                                    <p>2014 ‧ Drama ‧ 5 temporadas </p>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="titulo">
+                            <h2> • LO MÁS VISTO EN SERIES •</h2>
+                        </div>
+                            <section class="contenedor">
+                                
+                        
+                                <div class="hijo">
+                                    <div class="imagen-port">
+                                        <a href=".detail-movies.html"><img src="./img/cobrakai.jfif"></a>
+                                        <h3>COBRA KAI</h3>
+                                        <p>2018 ‧ Acción ‧ 3 temporadas </p>
+                                    </div>
+                                </div>
+                                <div class="hijo">
+                                    <div class="imagen-port">
+                                        <a href=".detail-movies.html"><img src="./img/jane.jpg" alt=""></a>
+                                        <h3>JANE THE VIRGIN</h3>
+                                        <p>2014 ‧ Drama ‧ 5 temporadas</p>
+                                    </div>
+                                </div>
+                                <div class="hijo">
+                                    <div class="imagen-port">
+                                        <a href=".detail-movies.html"><img src="./img/flash.png" alt=""></a>
+                                        <h3>FLASH</h3>
+                                        <p>2014 ‧ Ciencia ficción ‧ 7 temporada</p>
+                                    </div>
+                                </div>
+                                <div class="hijo">
+                                    <div class="imagen-port">
+                                        <a href=".detail-movies.html"><img src="./img/anne.jpeg" alt=""></a>
+                                        <h3>ANNE WITH AN E</h3>
+                                        <p>2017 ‧ Coming-of-age ‧ 3 temporadas</p>
+                                    </div>
+                                </div>
+                                <div class="hijo">
+                                    <div class="imagen-port">
+                                        <a href=".detail-movies.html"><img src="./img/sexeducation.jpeg" alt=""></a>
+                                        <h3>SEX EDUCATION</h3>
+                                        <p>2019 ‧ Drama ‧ 3 temporadas</p>
+                                    </div>
+                                </div>
+                            </section>
+                    
+        </main>
+
+        <footer>
+            <div class="container_footer">
+                <div class="box-footer">
+                    <div class="logo">
+                        <img src="./img/logo-blanco-3.png" alt="logo">
+                    </div>
+                    <div class="terms">
+                        <p> D&I Films es un servicio de streaming gratuito que tiene como objetivo que todas las personas puedan accerder a contenido de calidad. Surge como una iniciativa de la coorporativa D&I Code, encabezada y desarrollada por sus dueños fundadores Chiterer Sebastian, Denham Tobias y Teperman Ana.</p>
+                    </div>
+                </div>
+    
+                <div class="box-footer">
+                    <h2> NOSOTROS </h2>
+                    <a href="#">¿Quiénes somos?</a>
+    
+                    <a href="#">Información coorporativa</a>
+    
+                    <a href="#">Trabajá con nosotros</a>
+    
+                    <a href="#">Contacto</a>
+                </div>
+    
+                <div class="box-footer">
+                    <h2> AYUDA </h2>
+                    <a href="#">Preguntas frecuentas</a>
+    
+                    <a href="#">Términos de uso</a>
+    
+                    <a href="#">Preferencia de cookies</a>
+    
+                    <a href="#">Privacidad</a>
+                </div>
+    
+                <div class="box-footer">
+                    <h2> REDES SOCIALES </h2>
+                
+                    <a href="#"> <i class="fab fa-instagram"></i> Instagram</a> 
+                       
+                    <a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
+                        
+                    <a href="#"><i class="fab fa-youtube"></i> Youtube</a>
+                       
+                    <a href="#"><i class="fab fa-amazon"></i> Amazon</a>              
+                </div>
+    
+                <div class="box-copyright">
+                    <hr>
+                    <p>Todos los derechos reservados <i class="far fa-copyright"></i> 2021 <b>D&I Films</b></p>
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 </body>
-</html> 
+</html>
