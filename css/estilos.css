@@ -510,9 +510,8 @@ form div label{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0px 15px 0px;
     width: 25%;
-    height: 420px;
     margin-left: 40px;
     border-radius: 15px;
     background-color:#007aff;
@@ -520,15 +519,19 @@ form div label{
 }
 
 .detailmovieficha-container img{
-    width: 85%;
+    width: 90%;
 }
 
 .detailmovieficha-container h3{
     margin: 5% 0% 0% 0%;
+    width: 100%;
+    text-align: center;
 }
 
 .detailmovieficha-container p{
     margin: 0%;
+    width: 100%;
+    text-align: center;
 }
 
 .detailmoviessinopsis-container{
@@ -603,9 +606,8 @@ form div label{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0px 15px 0px;
     width: 25%;
-    height: 420px;
     margin-left: 40px;
     border-radius: 15px;
     background-color:#007aff;
@@ -613,15 +615,17 @@ form div label{
 }
 
 .detailseriesficha-container img{
-    width: 85%;
+    width: 90%;
 }
 
 .detailseriesficha-container h3{
-    margin: 5% 0% 0% 0%;
+    width: 100%;
+    text-align: center;
 }
 
 .detailseriesficha-container p{
-    margin: 0%;
+    width: 100%;
+    text-align: center;
 }
 
 .detailseriessinopsis-container{
