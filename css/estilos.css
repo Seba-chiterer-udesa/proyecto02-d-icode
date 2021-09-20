@@ -609,6 +609,11 @@ form div label{
     .box-copyright hr{
         display: none;
     }
-    
+    .box-footer h2{
+        display: none;
+    }
+    .box-footer a {
+        display: none;
+    }
 }
 
