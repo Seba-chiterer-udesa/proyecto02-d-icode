@@ -390,73 +390,7 @@ form div label{
     border-radius: 50%;
 }
 
-/* .maing-container h2{
-    background-color: #080f28;
-    border-radius: 15px;
-    padding: 10px;
-    font-weight: 700;
-    width: 90%;
-    margin:3% auto;
-}
 
-.maing-container h3{
-    margin: 0px;
-}
-
-.genres-container{
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #080f28;
-    border-radius: 15px;
-    justify-content: center;
-    margin: 3% auto;
-    padding: 10px;
-}
-
-.moviesg-container{
-    width: 50%;
-    text-align: center;
-}
-
-.moviesg-container a{
-    text-decoration: none;
-    color: white;
-}
-
-.moviesg-container div{
-    border-color: white;
-}
-
-.seriesg-container{
-    width: 50%;
-    text-align: center;
-}
-
-.seriesg-container a{
-    text-decoration: none;
-    color: white;
-}
-
-.seriesg-container div{
-    border-color: white;
-}
-
-.pelisflex{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 5%;
-}
-
-.pelisflex div{
-    width: 30%;
-    margin: 5px;
-    border-style: solid;
-    border-radius: 15px;
-    background-color: #007aff;
-} */
 /* Aqui empieza resultados de busqueda */
 
 .main-container-result{
@@ -501,101 +435,6 @@ form div label{
     border-radius: 15px;
 }
 
-/* Aca comienza el detail-movies.html */
-
-/* .detailmoviesdiv-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #080f28;
-    width: 90%;
-    margin: 3% 5% 3% 5%;
-    padding: 15px 10px 15px 10px;
-    border-radius: 15px;
-}
-
-.detailmovie-container h2{
-    background-color: #080f28;
-    border-radius: 15px;
-    color: white;
-    padding: 10px;
-    font-weight: 700;
-    width: 90%;
-    margin: 3% 5% 0% 5%;
-}
-
-.detailmovieficha-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px 0px 15px 0px;
-    width: 25%;
-    margin-left: 40px;
-    border-radius: 15px;
-    background-color:#007aff;
-    color: white;
-}
-
-.detailmovieficha-container img{
-    width: 90%;
-}
-
-.detailmovieficha-container h3{
-    margin: 5% 0% 0% 0%;
-    width: 100%;
-    text-align: center;
-}
-
-.detailmovieficha-container p{
-    margin: 0%;
-    width: 100%;
-    text-align: center;
-}
-
-.detailmoviessinopsis-container{
-    width: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    color: white;
-    margin: 0% 5% 0% 5%;
-}
-
-.detailmoviessinopsis-container h3{
-    margin:3px;
-}
-
-.detailmoviesfavoritos{
-    margin-top: 10px;
-    width: 230px;
-    padding: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #007aff;
-    border-radius: 15px;
-    color: white;
-    text-decoration: none;
-    border-style: solid;
-}
-
-.detailmoviesfavoritos h3{
-    margin: 0px 0px 0px 6px;
-    color: white; 
-}
-
-.detailmoviesfavoritos i{
-    margin:5px 5px 5px 5px;
-    color: yellow;
-} 
-
-.detailmoviesfavoritos a{
-    text-decoration: none;
-}
-
-.detailmoviesalinearfavoritos{
-    width: 400px;
-    display: flex;
-    justify-content: flex-end;
-} */
 
 /* Aca comienza el detailseries.html */
 
@@ -618,20 +457,6 @@ form div label{
     
 }
 
-/* .series img{
-    width: 90%;
-} */
-
-/* .detailseriesficha-container h3{
-    width: 100%;
-    text-align: center;
-}
-
-.detailseriesficha-container p{
-    width: 100%;
-    text-align: center;
-} */
-
 .detailseriessinopsis-container{
     width: 60%;
     display: flex;
@@ -640,9 +465,6 @@ form div label{
     margin: 4% 3%;
 }
 
-/* .detailseriessinopsis-container h3{
-    margin:3px;
-} */
 
 .boton-favoritos {
     display: flex;
@@ -692,84 +514,3 @@ form div label{
       margin: 1.5% 6% ;
 }
 
-/* Aca comienza el favourite.html */
-
-/* .favoritos-container h2{
-      border-radius: 15px;
-      background-color: #080f28;
-      color: white;
-      padding: 10px;
-      font-weight: 700;
-      width: 90%;
-      margin: 3% 5% 0% 5%;
-}
-
-.favoritosdiv-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-around;
-    background-color: #080f28;
-    width: 90%;
-    margin: 3% 5% 3% 5%;
-    padding: 15px 10px;
-    border-radius: 15px;
-}
-
-.endgamefavoritosficha-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 25%;
-    padding: 20px 0px 15px 0px;
-    background-color: #007aff;
-    color: white;
-    border-radius: 15px;
-}
-
-.endgamefavoritosficha-container img{
-    width: 90%;
-}
-
-.endgamefavoritosficha-container a{
-    text-align: center;
-}
-
-.endgamefavoritosficha-container h3{
-    width: 100%;
-    text-align: center;
-}
-
-.endgamefavoritosficha-container p{
-    width: 100%;
-    text-align: center;
-}
-
-.annewithanefavoritosficha-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 25%;
-    padding: 20px 0px 15px 0px;
-    background-color: #007aff;
-    color: white;
-    border-radius: 15px;
-}
-
-.annewithanefavoritosficha-container img{
-    width: 90%;
-}
-
-.annewithanefavoritosficha-container a{
-    text-align: center;
-}
-
-.annewithanefavoritosficha-container h3{
-    width: 100%;
-    text-align: center;
-}
-
-.annewithanefavoritosficha-container p{
-    width: 100%;
-    text-align: center;
-} */
