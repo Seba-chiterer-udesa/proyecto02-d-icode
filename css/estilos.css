@@ -503,7 +503,7 @@ form div label{
 
 /* Aca comienza el detail-movies.html */
 
-.detailmoviesdiv-container{
+/* .detailmoviesdiv-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -595,48 +595,34 @@ form div label{
     width: 400px;
     display: flex;
     justify-content: flex-end;
-}
+} */
 
 /* Aca comienza el detailseries.html */
 
-.detailseriesdiv-container{
+
+
+
+.hijo-detail-series {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+.series{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #080f28;
+    width: 50%;
+    
+}
+
+/* .series img{
     width: 90%;
-    margin: 3% 5% 3% 5%;
-    padding: 15px 10px 15px 10px;
-    border-radius: 15px;
-}
+} */
 
-.detailseries-container h2{
-    background-color: #080f28;
-    border-radius: 15px;
-    color: white;
-    padding: 10px;
-    font-weight: 700;
-    width: 90%;
-    margin: 3% 5% 0% 5%;
-}
-
-.detailseriesficha-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px 0px 15px 0px;
-    width: 25%;
-    margin-left: 40px;
-    border-radius: 15px;
-    background-color:#007aff;
-    color: white;
-}
-
-.detailseriesficha-container img{
-    width: 90%;
-}
-
-.detailseriesficha-container h3{
+/* .detailseriesficha-container h3{
     width: 100%;
     text-align: center;
 }
@@ -644,21 +630,29 @@ form div label{
 .detailseriesficha-container p{
     width: 100%;
     text-align: center;
-}
+} */
 
 .detailseriessinopsis-container{
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-wrap: wrap;
     color: white;
-    margin: 0% 5% 0% 5%;
+    margin: 4% 3%;
 }
 
-.detailseriessinopsis-container h3{
+/* .detailseriessinopsis-container h3{
     margin:3px;
+} */
+
+.boton-favoritos {
+    display: flex;
+    justify-content: flex-end;
+   
+
+
 }
 
-.detailseriesfavoritos{
+.detail-favoritos{
     margin-top: 10px;
     width: 230px;
     padding: 5px;
@@ -668,27 +662,26 @@ form div label{
     border-radius: 15px;
     color: white;
     text-decoration: none;
-    border-style: solid;
 }
 
-.detailseriesfavoritos h3{
+.detail-favoritos h3{
     margin: 0px 0px 0px 6px;
     color: white; 
 }
 
-.detailseriesfavoritos i{
-    margin:5px 5px 5px 5px;
-    color: yellow;
+.detail-favoritos i{
+    margin:2%;
+    color: white;
 } 
 
-.detailseriesfavoritos a{
+.detail-favoritos a{
     text-decoration: none;
 }
 
-.detailseriesalinearfavoritos{
+.boton-favoritos {
     width: 400px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 /* Aca comienza el detail-genres.html */
@@ -701,7 +694,7 @@ form div label{
 
 /* Aca comienza el favourite.html */
 
-.favoritos-container h2{
+/* .favoritos-container h2{
       border-radius: 15px;
       background-color: #080f28;
       color: white;
@@ -779,4 +772,4 @@ form div label{
 .annewithanefavoritosficha-container p{
     width: 100%;
     text-align: center;
-}
+} */
