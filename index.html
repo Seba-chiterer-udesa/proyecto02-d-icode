@@ -18,7 +18,7 @@
                 <div class="burguermenu">
                     <i class="fas fa-bars burguer"></i>
                 </div>
-                <div id="logo">
+                <div>
                     <a href="index.html"> <img class="logo" src="./img/logo-blanco-3.png" alt="Logo de la pagina"></a>
                 </div>
                 <div class="header-nav">
@@ -33,12 +33,15 @@
                 <div class="header-nav">
                     <a href="./detail-series.html">Series</a>
                 </div>   
-                <div class="header-nav">
-                    <a href="./favourite.html">Favoritos</a>
-                </div>
+                
+            
                 <div class= "header-busqueda">
-                    <input type="search" name="busqueda" value="" placeholder="Buscar películas o series">
-                    <a href="./results.html"><i class="fas fa-search lupa"></i></a>
+                    <div class= "header-busqueda">
+                        <form action="./results.html" method="GET">
+                            <input type="search" name="busqueda" value="" placeholder="Buscar películas o series">
+                        </form>
+                        <a href="./results.html"><i class="fas fa-search lupa"></i></a>
+                    </div>
                 </div>
                 <div class="header-registro">
                     <a href="./register.html"><input type="button" value="Registrarse"></a>
