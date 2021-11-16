@@ -19,6 +19,7 @@ fetch (`https://api.themoviedb.org/3/movie/popular?api_key=c0945689b0a582e110971
     </div>
         `
         }
+        console.log(datos);
     })
     .catch(function (error) {
         console.log(`El error fue: ${error}`);
