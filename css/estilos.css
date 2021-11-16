@@ -76,7 +76,17 @@ body header{
     padding: 10px 10px;
     border-radius: 30px;
     margin-bottom: 33px;
+    
 }
+
+.alert{
+    color: white;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+}
+
 ::placeholder{
     color: white;
 }
