@@ -5,6 +5,7 @@ fetch('https://api.themoviedb.org/3/genre/movie/list?api_key=c0945689b0a582e1109
     return response.json();
 })
 .then (function(datos){
+    console.log(datos)
 
     
     for(let i = 0; i< 5; i++){
@@ -23,7 +24,6 @@ fetch('https://api.themoviedb.org/3/genre/movie/list?api_key=c0945689b0a582e1109
 .catch(function (error) {
     console.log(`El error fue: ${error}`);
 })
-
 
 
 })
