@@ -22,9 +22,6 @@ fetch (`https://api.themoviedb.org/3/movie/popular?api_key=c0945689b0a582e110971
                 }
             }
             
-<<<<<<< HEAD
-       
-=======
         document.querySelector('.contenedor').innerHTML += `
         <div class="hijo">
             <div class="imagen-port">
@@ -34,8 +31,7 @@ fetch (`https://api.themoviedb.org/3/movie/popular?api_key=c0945689b0a582e110971
             </div>
         </div>
         `
-        }
->>>>>>> a6cd4ad227a12c3c3ed24aa68c41314535f063e2
+
         console.log(datos);
     })
     .catch(function (error) {

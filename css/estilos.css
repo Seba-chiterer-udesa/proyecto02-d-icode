@@ -456,7 +456,18 @@ form div label{
 
 /* Comienza el index de Generos */
 
-.genero{
+.generoPeliculas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1% 5%;
+    padding: 2%;
+    max-width: 1900px;
+    flex-wrap: wrap;
+   
+}
+
+.generoSeries{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -674,6 +685,7 @@ form div label{
     .lupa{
         margin: 0px 10px 27px 5px;
     }
+    
 
     .box-copyright hr{
         display: none;
