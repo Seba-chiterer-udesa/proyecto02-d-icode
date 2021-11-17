@@ -22,7 +22,20 @@ fetch (`https://api.themoviedb.org/3/movie/popular?api_key=c0945689b0a582e110971
                 }
             }
             
+<<<<<<< HEAD
        
+=======
+        document.querySelector('.contenedor').innerHTML += `
+        <div class="hijo">
+            <div class="imagen-port">
+                <a href="./detail-movies.html?idMovie=${datos.results[i].id}"><img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${datos.results[i].poster_path}" alt="ficha ${datos.results[i].title}"></a>
+                <h3>${datos.results[i].title}</h3>
+                <p>${datos.results[i].genre_id}</p>
+            </div>
+        </div>
+        `
+        }
+>>>>>>> a6cd4ad227a12c3c3ed24aa68c41314535f063e2
         console.log(datos);
     })
     .catch(function (error) {
