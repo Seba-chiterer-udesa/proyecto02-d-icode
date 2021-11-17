@@ -80,7 +80,10 @@ console.log(datos.results)
     })
     .then (function(datos){
 
-        
+        let generos =""
+            for (let i = 0; i < datos.results.genre_ids.length; i++ ){
+            generos +=`${datos.results.genre_ids[i].name}`
+            }
         for(let i = 0; i< 5; i++){
             
         document.querySelector('.contenedor3').innerHTML += `
@@ -88,7 +91,7 @@ console.log(datos.results)
             <div class="imagen-port">
                 <a href="./detail-series.html?idSerie=${datos.results[i].id}"><img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${datos.results[i].poster_path}" alt="ficha ${datos.results[i].title}"></a>
                 <h3>${datos.results[i].name}</h3>
-                <p>${datos.results[i].first_air_date}</p>
+                <p>${generos}</p>
             </div>
         </div>
         `
