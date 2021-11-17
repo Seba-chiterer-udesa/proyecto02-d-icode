@@ -11,10 +11,10 @@ fetch(`https://api.themoviedb.org/3/tv/${idSerie}?api_key=c0945689b0a582e1109713
 })
 .then(function(datos) {
     console.log(datos);
-        document.querySelector('.titulo').innerHTML += `
+        document.querySelector('.titulo').innerHTML = `
             <h2>• ${datos.results[idSerie].title}• </h2>
         `
-        document.querySelectorAll('.contenedorSerie').innerHTML += `
+        document.querySelectorAll('.contenedorSerie').innerHTML = `
         <div class="hijo-detail-series">
             <div class="imagen-port series">
                 <img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${datos.results[idSerie].poster_path}" alt="ficha ${datos.results[idSerie].title}">
