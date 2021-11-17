@@ -17,23 +17,24 @@ window.addEventListener("load",function(){
     console.log(datos);
 
     document.querySelector('.titulo').innerHTML = `
-        <h2>• ${datos.results[idMovie].title}• </h2>
+        <h2>• ${datos.title}• </h2>
     `
 
     document.querySelector('.contenedor').innerHTML = `
     <div class="hijo-detail-series">
             <div class="imagen-port series">
-                <img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${datos.results[idMovie].poster_path}" alt="ficha ${datos.results[idMovie].title}">
-                <h3>${datos.results[idMovie].title}</h3>
-                <p>${datos.results[idMovie].genres}</p>
-                <p>${datos.results[idMovie].first_air_date } ‧ ${datos.results[idMovie].next_episode_to_air.number_of_seasons}</p>
+                <img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${datos.poster_path}" alt="ficha ${datos.title}">
+                <h3>${datos.title}</h3>
+                <p>${datos.genres}</p>
+                <p>${datos.first_air_date } ‧ ${datos.results.next_episode_to_air.number_of_seasons}</p>
             </div>
             <div class="detailseriessinopsis-container">                       
-                <h3> Género: ${datos[idMovie].genres}</h3>
-                <h3> Clasificación: ${datos.results[idMovie].type}</h3>
-                <h3> Sinópsis: ${datos.results[idMovie].overview}</h3>
-                <h3> Calificación promedio: ${datos.results[idMovie].vote_average}</h3>
-                <h3> Total de Reseñas:${datos.results[idMovie].vote_count}</h3>
+                <h3> Género: ${datos.genres}</h3>
+                <h3> Clasificación: ${datos.type}</h3>
+                <h3> Duración: ${datos.type}</h3>
+                <h3> Sinópsis: ${datos.overview}</h3>
+                <h3> Calificación promedio: ${datos.vote_average}</h3>
+                <h3> Total de Reseñas:${datos.vote_count}</h3>
             <div>
             <div class="boton-favoritos">
                     <div class="detail-favoritos">
@@ -45,7 +46,7 @@ window.addEventListener("load",function(){
 
     })
     .catch(function (error) {
-        console.log(`El error fue: ${error}`);
+        console.log (`El error fue: ${error}`);
     })
 
 
