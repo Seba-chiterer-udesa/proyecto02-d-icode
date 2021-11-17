@@ -14,7 +14,7 @@ fetch (`https://api.themoviedb.org/3/movie/popular?api_key=c0945689b0a582e110971
             <div class="imagen-port">
                 <a href="./detail-movies.html"><img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${datos.results[i].poster_path}" alt="ficha ${datos.results[i].title}"></a>
                 <h3>${datos.results[i].title}</h3>
-                <p>${datos.results[i].release_date}</p>
+                <p>${datos.results[i].genre_id}</p>
             </div>
         </div>
         `

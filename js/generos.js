@@ -5,7 +5,7 @@ fetch('https://api.themoviedb.org/3/genre/movie/list?api_key=c0945689b0a582e1109
     return response.json();
 })
 .then (function(datos){
-    console.log(datos)
+    console.log(datos.genres)
 
     
     for(let i = 0; i< 5; i++){
