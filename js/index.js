@@ -18,8 +18,8 @@ fetch (`https://api.themoviedb.org/3/movie/popular?api_key=c0945689b0a582e110971
             </div>
         </div>
         `
-        }
         console.log(datos);
+    }
     })
     .catch(function (error) {
         console.log(`El error fue: ${error}`);
@@ -91,7 +91,7 @@ console.log(datos.results)
             <div class="imagen-port">
                 <a href="./detail-series.html?idSerie=${datos.results[i].id}"><img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${datos.results[i].poster_path}" alt="ficha ${datos.results[i].title}"></a>
                 <h3>${datos.results[i].name}</h3>
-                <p>${generos}</p>
+                
             </div>
         </div>
         `
