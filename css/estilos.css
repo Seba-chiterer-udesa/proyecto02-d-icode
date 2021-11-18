@@ -456,26 +456,17 @@ form div label{
 
 /* Comienza el index de Generos */
 
-.generoPeliculas{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 1% 5%;
-    padding: 2%;
-    max-width: 1900px;
-    flex-wrap: wrap;
-   
-}
 
-.generoSeries{
+.generoSeries {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 1% 5%;
     padding: 2%;
-    max-width: 1900px;
+    max-width: 1800px;
     flex-wrap: wrap;
-   
+    background-color:#080f28;
+    border-radius: 20px;
+    margin: 1% 5%;
 }
 .genero a{
    
@@ -488,8 +479,37 @@ form div label{
     margin: auto;
     border-radius: 50%;
 }
-
-
+.generoPeliculas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2%;
+    max-width: 1800px;
+    flex-wrap: wrap;
+    background-color:#080f28;
+    border-radius: 20px;
+    margin: 1% 5%;
+}
+.generoPeliculas a, .generoSeries a{
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: medium;
+    text-transform: uppercase;
+    background-color: #007aff;
+    padding-top: 50px;
+    height: 17vh;
+    color: midnightblue;
+    border-color:midnightblue;
+    width: 135px;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin: 1.5% 3%;
+    border-style: double;
+    
+}
 /* Aqui empieza resultados de busqueda */
 
 .main-container-result{
