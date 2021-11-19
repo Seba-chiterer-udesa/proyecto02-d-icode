@@ -1,6 +1,6 @@
 // apikey c0945689b0a582e110971301d6ea8be2
 window.addEventListener('load', function(){
-fetch (`https://api.themoviedb.org/3/movie/popular?api_key=c0945689b0a582e110971301d6ea8be2`)
+fetch (`https://api.themoviedb.org/3/movie/popular?api_key=c0945689b0a582e110971301d6ea8be2&language=es`)
     .then(function(response){
         return response.json();
     })
@@ -25,7 +25,7 @@ fetch (`https://api.themoviedb.org/3/movie/popular?api_key=c0945689b0a582e110971
         console.log(`El error fue: ${error}`);
     })
 
-    fetch (`https://api.themoviedb.org/3/movie/top_rated?api_key=c0945689b0a582e110971301d6ea8be2`)
+    fetch (`https://api.themoviedb.org/3/movie/top_rated?api_key=c0945689b0a582e110971301d6ea8be2&language=es`)
     .then(function(response){
         return response.json();
     })
@@ -49,7 +49,7 @@ fetch (`https://api.themoviedb.org/3/movie/popular?api_key=c0945689b0a582e110971
         console.log(`El error fue: ${error}`);
     })
 
-    fetch (`https://api.themoviedb.org/3/tv/popular?api_key=c0945689b0a582e110971301d6ea8be2`)
+    fetch (`https://api.themoviedb.org/3/tv/popular?api_key=c0945689b0a582e110971301d6ea8be2&language=es`)
     .then(function(response){
         return response.json();
     })
@@ -73,7 +73,7 @@ console.log(datos.results)
         console.log(`El error fue: ${error}`);
     })
 
-    fetch (`https://api.themoviedb.org/3/tv/top_rated?api_key=c0945689b0a582e110971301d6ea8be2`)
+    fetch (`https://api.themoviedb.org/3/tv/top_rated?api_key=c0945689b0a582e110971301d6ea8be2&language=es`)
     
     .then(function(response){
         return response.json();
