@@ -29,6 +29,13 @@ window.addEventListener("load", function(){
                     </div>
                 </div>
             `
+            let imagen = (`${datos.results[i].poster_path}`)
+            let imagenPort = (".imagen-port")
+
+            if(imagen == null){
+                imagenPort.style.display ="none";
+
+            }
 
 
             }
@@ -55,7 +62,15 @@ window.addEventListener("load", function(){
 
                     </div>
                 </div>
+
+                
             `
+            // let imagen = (`${datos.results[i].poster_path}`)
+            // let imagenPort = (".imagen-port")
+
+            // if(imagen = undefined){
+            //     imagenPort.style.display ="none";
+
 
 
             }
