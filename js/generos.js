@@ -1,6 +1,6 @@
 window.addEventListener('load',function(){
 
-fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=c0945689b0a582e110971301d6ea8be2`)
+fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=c0945689b0a582e110971301d6ea8be2&language=es`)
     .then(function(response){
         return response.json();
     })
@@ -30,7 +30,7 @@ fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=c0945689b0a582e1109
 
 
 
-fetch(`https://api.themoviedb.org/3/genre/tv/list?api_key=c0945689b0a582e110971301d6ea8be2`)
+fetch(`https://api.themoviedb.org/3/genre/tv/list?api_key=c0945689b0a582e110971301d6ea8be2&language=es`)
 .then(function(response){
     return response.json();
 })
