@@ -17,20 +17,18 @@ window.addEventListener("load", function(){
             
             console.log(datos.results);
     
-            for(let i = 0; i < 3; i++){
+            for(let i = 0; i < 2; i++){
                 document.querySelector('section').innerHTML += `
                 <div class="hijo">
                     <div class="imagen-port">
                         <a href="./detail-movies.html"><img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${datos.results[i].poster_path}" alt=""></a>
                         <h3>${datos.results[i].title}</h3>
-                        <p>${datos.results[i].genres}}</p>
+                        <p>${datos.results[i].release_date}</p>
+    
 
                     </div>
                 </div>
             `
-            if(`${datos.results[i].poster_path}`= undefined){
-                
-            }
 
 
             }
@@ -47,13 +45,13 @@ window.addEventListener("load", function(){
             
             console.log(datos.results);
     
-            for(let i = 0; i < 3; i++){
+            for(let i = 0; i < 2; i++){
                 document.querySelector('section').innerHTML += `
                 <div class="hijo">
                     <div class="imagen-port">
                         <a href="./detail-movies.html"><img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${datos.results[i].poster_path}" alt=""></a>
                         <h3>${datos.results[i].name}</h3>
-                        <p>${datos.results[i].genre_ids}}</p>
+                        <p>${datos.results[i].first_air_date}</p>
 
                     </div>
                 </div>
