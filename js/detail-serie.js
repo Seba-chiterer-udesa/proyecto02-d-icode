@@ -41,15 +41,47 @@ fetch(`https://api.themoviedb.org/3/tv/${idSerie}?api_key=c0945689b0a582e1109713
             <div class="boton-favoritos">
                     <div class="detail-favoritos">
                         <i class="fas fa-star star"></i>
-                        <a href="./favourite.html"><h3>Agregar a Favoritos</h3></a>   
+                        <button class="fav"><h3>Agregar a Favoritos</h3></button>   
                     </div>
             </div>   
        
-        `
+        `;
 
+    // Selector del botón favorito
+    let buttonFav = document.querySelector('.fav');
+        
+    // localStorage
+        
+    if(localStorage.getItem('idSeriesToString')!=null){
+        favoritos = JSON.parse(localStorage.getItem('idSeriesToString'));
+        if(favoritos.includes(idSerie)) {
+            buttonFav.innerHTML = `Remover de favoritos`;
+        }else{
+            buttonFav.innerHTML = `Agregar a favoritos`;
+        }
+    }
+    
+    // Evento del botón agregar/remover favorito
+
+    buttonFav.addEventListener('click', function(e){
+
+        if (favoritos.includes(idSerie)){
+            favoritos.splice(favoritos.indexOf(idSerie)); //No pongo indexOf(idSerie),1 porque no es necesario.
+            buttonFav.innerHTML = `Agregar a favoritos`;
+        }else{
+            favoritos.push(idSerie);
+            buttonFav.innerHTML = `Remover de favoritos`;
+        }
+        
+        localStorage.setItem('idSeriesToString', JSON.stringify(favoritos));
+        console.log(localStorage);
+    })
+
+    })
+    .catch(function (error) {
+        console.log (`El error fue: ${error}`);  
+        
 })
-.catch(function (error) {
-    console.log(`El error fue: ${error}` );
-})
+
 
 })
