@@ -6,7 +6,7 @@ let objetoQueryString = new URLSearchParams(queryString);
 let idGenero = objetoQueryString.get('idGenero');
 console.log(objetoQueryString.get('idGenero'))
 //FETCH
-fetch(`https://api.themoviedb.org/3/${idGenero}/tv/list?api_key=c0945689b0a582e110971301d6ea8be2`)
+fetch(`https://api.themoviedb.org/3/tv/list/${idGenero}?api_key=c0945689b0a582e110971301d6ea8be2`)
 .then(function(response){
     return response.json();
 })
