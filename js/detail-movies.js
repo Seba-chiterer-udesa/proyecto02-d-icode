@@ -16,6 +16,13 @@ window.addEventListener("load",function(){
     .then (function(datos){
     console.log(datos);
 
+    let generos = ""
+    for (let i =0; i < datos.genres.length; i++ ){
+        generos += `<a href="detail-genres.html?idGenero=${datos.genres[i].id}">${datos.genres[i].name} </a>`
+    }
+
+    /* console.log(generos); */
+
     document.querySelector('.titulo').innerHTML = `
         <h2>• ${datos.title}• </h2>
     `
@@ -25,15 +32,13 @@ window.addEventListener("load",function(){
             <div class="imagen-port series">
                 <img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${datos.poster_path}" alt="ficha ${datos.title}">
                 <h3>${datos.title}</h3>
-                <p>${datos.genres}</p>
-                <p>${datos.first_air_date } ‧ ${datos.results.next_episode_to_air.number_of_seasons}</p>
+                <p>${generos}</p>
             </div>
             <div class="detailseriessinopsis-container">                       
-                <h3> Género: ${datos.genres}</h3>
-                <h3> Clasificación: ${datos.type}</h3>
+                <h3> Género: ${generos}</h3>
+                <h3> Clasificación: ${datos.vote_average}</h3>
                 <h3> Duración: ${datos.type}</h3>
                 <h3> Sinópsis: ${datos.overview}</h3>
-                <h3> Calificación promedio: ${datos.vote_average}</h3>
                 <h3> Total de Reseñas:${datos.vote_count}</h3>
             <div>
             <div class="boton-favoritos">

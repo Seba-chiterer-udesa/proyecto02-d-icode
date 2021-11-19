@@ -24,7 +24,7 @@ fetch(`https://api.themoviedb.org/3/tv/${idSerie}?api_key=c0945689b0a582e1109713
         document.querySelector('.hijo-detail-series').innerHTML += `
         
             <div class="imagen-port series">
-                <img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${datos.poster_path}" alt="ficha ${datos.title}">
+                <img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${datos.poster_path}" alt="ficha ${datos.name}">
                 <h3>${datos.name}</h3>
                 <p>${generos}</p>
                 <p>${datos.first_air_date } ‧ ${datos.number_of_seasons}</p>
