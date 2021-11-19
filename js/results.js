@@ -32,7 +32,7 @@ window.addEventListener("load", function(){
             let imagen = (`${datos.results[i].poster_path}`)
             let imagenPort = (".imagen-port")
 
-            if(imagen == null){
+            if(imagen == undefined){
                 imagenPort.style.display ="none";
 
             }
@@ -65,14 +65,14 @@ window.addEventListener("load", function(){
 
                 
             `
-            // let imagen = (`${datos.results[i].poster_path}`)
-            // let imagenPort = (".imagen-port")
+            let imagen = (`${datos.results[i].poster_path}`)
+            let imagenPort = (".imagen-port")
 
-            // if(imagen = undefined){
-            //     imagenPort.style.display ="none";
+            if(imagen == undefined){
+                imagenPort.style.display ="none";
 
 
-
+            }
             }
     
         }).catch(function(error){
