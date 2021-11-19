@@ -602,7 +602,7 @@ form div label{
 
 .detailseriessinopsis-container{
     width: 60%;
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     color: white;
     margin: 4% 3%;
@@ -612,6 +612,7 @@ form div label{
 .boton-favoritos {
     display: flex;
     justify-content: flex-end;
+    margin: 0px 0px 0px 25px;
    
 
 
@@ -648,6 +649,18 @@ form div label{
     display: flex;
     justify-content: flex-start;
 }
+
+.movie {
+    margin: 30px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
 
 /* Aca comienza el detail-genres.html */
 .titulo h2{
