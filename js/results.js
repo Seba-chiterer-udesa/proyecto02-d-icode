@@ -28,6 +28,9 @@ window.addEventListener("load", function(){
                     </div>
                 </div>
             `
+            if(`${datos.results[i].poster_path}`= undefined){
+                
+            }
 
 
             }
