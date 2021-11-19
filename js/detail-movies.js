@@ -32,7 +32,7 @@ window.addEventListener("load",function(){
             <div class="imagen-port series">
                 <img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${datos.poster_path}" alt="ficha ${datos.title}">
                 <h3>${datos.title}</h3>
-                <p>${generos}</p>
+                <p>${datos.generos}</p>
             </div>
             <div class="detailseriessinopsis-container">                       
                 <h3> Género: ${generos}</h3>

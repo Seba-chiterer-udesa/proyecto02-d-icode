@@ -32,7 +32,7 @@ fetch (`https://api.themoviedb.org/3/movie/popular?api_key=c0945689b0a582e110971
     .then (function(datos){
 
         
-        for(let i = 10; i< 15; i++){
+        for(let i = 5; i< 10; i++){
             
         document.querySelector('.contenedor1').innerHTML += `
         <div class="hijo">
