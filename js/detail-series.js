@@ -4,6 +4,7 @@ window.addEventListener('load', function(){
     let objetoQueryString = new URLSearchParams(queryString);
    // console.log(objetoQueryString.get('idSerie'))
     let idSerie = objetoQueryString.get('idSerie');
+    console.log(idSerie);
 //FETCH
 fetch(`https://api.themoviedb.org/3/tv/${idSerie}?api_key=c0945689b0a582e110971301d6ea8be2`)
 .then(function(response){
