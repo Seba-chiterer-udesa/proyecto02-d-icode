@@ -24,7 +24,7 @@ window.addEventListener("load", function(){
 
                 <div class="hijo">
                     <div class="imagen-port">
-                        <a href="./detail-movies.html"><img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${datos.results[i].poster_path}" alt=""></a>
+                        <a href="./detail-movies.html?idMovie=${datos.results[i].id}"><img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${datos.results[i].poster_path}" alt=""></a>
                         <h3>${datos.results[i].title}</h3>
                         <p>${datos.results[i].release_date}</p>
                     </div>
@@ -61,15 +61,15 @@ window.addEventListener("load", function(){
                 document.querySelector('section').innerHTML += `
                 <div class="hijo">
                     <div class="imagen-port">
-                        <a href="./detail-movies.html"><img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${datos.results[i].poster_path}" alt=""></a>
+                        <a href="./detail-series.html?idSerie=${datos.results[i].id}"><img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${datos.results[i].poster_path}" alt=""></a>
                         <h3>${datos.results[i].name}</h3>
                         <p>${datos.results[i].first_air_date}</p>
 
                     </div>
                 </div>
             `
-            let imagen = (`${datos.results[i].poster_path}`)
-            let imagenPort = (".imagen-port")
+            // let imagen = (`${datos.results[i].poster_path}`)
+            // let imagenPort = (".imagen-port")
 
             // if(imagen == undefined){
             //     imagenPort.style.display ="none";
