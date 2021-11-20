@@ -4,22 +4,34 @@ window.addEventListener("load", function(){
     let objetoQueryString = new URLSearchParams(queryString);
     let busqueda = objetoQueryString.get('busqueda');
     let key = ("c0945689b0a582e110971301d6ea8be2");
+
     
-    document.querySelector(".titulo").innerHTML+=`
-    <h2> • RESULTADOS DE BÚSQUEDA PARA "${busqueda}" •</h2>
-    `
+
     // fetch
     
     fetch(`https://api.themoviedb.org/3/search/movie?api_key=${key}&language=es&query=${busqueda}`)
 
         .then(function(response){
             return response.json();
-        }).then(function(datos){
-            
-            console.log(datos.results);
 
-    
+        }).then(function(datos){
+
+        document.querySelector(".titulo").innerHTML+=`
+            <h2> • RESULTADOS DE BÚSQUEDA PARA "${busqueda}" •</h2>`
+        
             for(let i = 0; i < 2; i++){
+
+                console.log(datos.results);
+
+            
+
+                // if (datos.results[i]== null){
+                //     document.querySelector('.titulo').innerHTML +=`
+                //     <h2> • RESULTADOS DE BÚSQUEDA PARA "${busqueda}" NO TIENE COINCIDENCIAS •</h2>
+                //     `
+                // }
+           
+  
                 document.querySelector('section').innerHTML += `
 
                 <div class="hijo">
@@ -28,22 +40,13 @@ window.addEventListener("load", function(){
                         <h3>${datos.results[i].title}</h3>
                         <p>${datos.results[i].release_date}</p>
                     </div>
-                </div>
+                </div>  
             `
-            let imagen = (`${datos.results[i].poster_path}`)
-            let imagenPort = (".imagen-port")
-
-            // if(imagen == undefined){
-            //     imagenPort.style.display ="none";
-
-            // }
-
-
-            }
-    
+        }
         }).catch(function(error){
             console.log(`El error fue: ${error}`);
     })
+    
 
     fetch(`https://api.themoviedb.org/3/search/tv?api_key=${key}&language=es&query=${busqueda}`)
 
@@ -68,14 +71,8 @@ window.addEventListener("load", function(){
                     </div>
                 </div>
             `
-            // let imagen = (`${datos.results[i].poster_path}`)
-            // let imagenPort = (".imagen-port")
-
-            // if(imagen == undefined){
-            //     imagenPort.style.display ="none";
 
 
-            // }
             }
     
         }).catch(function(error){
