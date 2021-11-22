@@ -8,7 +8,7 @@ window.addEventListener('load', function(){
     let objetoQueryString = new URLSearchParams(queryString);
     let idSerie = objetoQueryString.get('idSerie');
     console.log(idSerie);
-
+   
 //FETCH
 fetch(`https://api.themoviedb.org/3/tv/${idSerie}?api_key=c0945689b0a582e110971301d6ea8be2&language=es`)
 .then(function(response){
@@ -19,7 +19,7 @@ fetch(`https://api.themoviedb.org/3/tv/${idSerie}?api_key=c0945689b0a582e1109713
     
     let generos = ""
     for (let i = 0; i < datos.genres.length; i++ ){
-        generos += `<a href="detail-genres.html?idGenero=${datos.genres[i].id}">${datos.genres[i].name} </a>`
+        generos += `<a href="detailGeneroSerie.html?idGenero=${datos.genres[i].id}">${datos.genres[i].name} </a>`
     }
     
     console.log(generos)
