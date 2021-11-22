@@ -6,8 +6,7 @@ fetch (`https://api.themoviedb.org/3/movie/popular?api_key=c0945689b0a582e110971
     })
     .then (function(datos){
 
-        
-        for(let i = 1; i< 6; i++){
+        for(let i = 1; i < 6; i++){
 
         document.querySelector('.contenedor').innerHTML += `
         <div class="hijo">
@@ -32,7 +31,7 @@ fetch (`https://api.themoviedb.org/3/movie/popular?api_key=c0945689b0a582e110971
     .then (function(datos){
 
         
-        for(let i = 5; i< 10; i++){
+        for(let i = 5; i < 10; i++){
             
         document.querySelector('.contenedor1').innerHTML += `
         <div class="hijo">
@@ -55,7 +54,7 @@ fetch (`https://api.themoviedb.org/3/movie/popular?api_key=c0945689b0a582e110971
     })
     .then (function(datos){
 console.log(datos.results)
-        for(let i = 0; i< 5; i++){
+        for(let i = 0; i < 5; i++){
           
         document.querySelector('.contenedor2').innerHTML += `
         <div class="hijo">
@@ -81,7 +80,7 @@ console.log(datos.results)
     .then (function(datos){
 
         
-        for(let i = 0; i< 5; i++){
+        for(let i = 0; i < 5; i++){
             
         document.querySelector('.contenedor3').innerHTML += `
         <div class="hijo">

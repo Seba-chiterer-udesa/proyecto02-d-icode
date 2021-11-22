@@ -1,22 +1,27 @@
 window.addEventListener('load', function(){
-// ACCEDO A LA QUERY STRING
+    //Declaro el array de favoritos
+
+    let favoritos = [];
+
+    // ACCEDO A LA QUERY STRING
     let queryString = location.search;
     let objetoQueryString = new URLSearchParams(queryString);
-   // console.log(objetoQueryString.get('idSerie'))
     let idSerie = objetoQueryString.get('idSerie');
     console.log(idSerie);
+
 //FETCH
-fetch(`https://api.themoviedb.org/3/tv/${idSerie}?api_key=c0945689b0a582e110971301d6ea8be2`)
+fetch(`https://api.themoviedb.org/3/tv/${idSerie}?api_key=c0945689b0a582e110971301d6ea8be2&language=es`)
 .then(function(response){
     return response.json();
 })
 .then(function(datos) {
     console.log(datos);
     
-    let generos =""
-    for (let i =0; i < datos.genres.length; i++ ){
+    let generos = ""
+    for (let i = 0; i < datos.genres.length; i++ ){
         generos += `<a href="detail-genres.html?idGenero=${datos.genres[i].id}">${datos.genres[i].name} </a>`
     }
+    
     console.log(generos)
         document.querySelector('.titulo').innerHTML += `
             <h2>• ${datos.name}• </h2>
@@ -30,18 +35,18 @@ fetch(`https://api.themoviedb.org/3/tv/${idSerie}?api_key=c0945689b0a582e1109713
                 <p>${datos.first_air_date } ‧ ${datos.number_of_seasons} temporadas</p>
             </div>
             <div class="detailseriessinopsis-container">  
-                <h2>${datos.name}</h2>                     
-                <h3> Género: ${generos}</h3>
-                <h3>Clasificación: ${datos.type}</h3>
-                <h3>Sinópsis: ${datos.overview}</h3>
-                <h3>Calificación promedio: ${datos.vote_average}</h3>
-                <h3>Total de Reseñas:${datos.vote_count}</h3>
+                <h3 class="movie">Título: ${datos.name}</h3>                     
+                <h3 class="movie">Género: ${generos}</h3>
+                <h3 class="movie">Clasificación: ${datos.type}</h3>
+                <h3 class="movie">Sinópsis: ${datos.overview}</h3>
+                <h3 class="movie">Calificación promedio: ${datos.vote_average}</h3>
+                <h3 class="movie">Total de Reseñas:${datos.vote_count}</h3>
             <div>
 
             <div class="boton-favoritos">
                     <div class="detail-favoritos">
-                        <i class="fas fa-star star"></i>
-                        <button class="fav"><h3>Agregar a Favoritos</h3></button>   
+                        <i class="fas fa-star star" id="star"></i>
+                        <button class="fav">Agregar a Favoritos</button>   
                     </div>
             </div>   
        
@@ -52,7 +57,7 @@ fetch(`https://api.themoviedb.org/3/tv/${idSerie}?api_key=c0945689b0a582e1109713
         
     // localStorage
         
-    if(localStorage.getItem('idSeriesToString')!=null){
+    if(localStorage.getItem('idSeriesToString') != null){
         favoritos = JSON.parse(localStorage.getItem('idSeriesToString'));
         if(favoritos.includes(idSerie)) {
             buttonFav.innerHTML = `Remover de favoritos`;
@@ -66,7 +71,7 @@ fetch(`https://api.themoviedb.org/3/tv/${idSerie}?api_key=c0945689b0a582e1109713
     buttonFav.addEventListener('click', function(e){
 
         if (favoritos.includes(idSerie)){
-            favoritos.splice(favoritos.indexOf(idSerie)); //No pongo indexOf(idSerie),1 porque no es necesario.
+            favoritos.splice(favoritos.indexOf(idSerie),1);
             buttonFav.innerHTML = `Agregar a favoritos`;
         }else{
             favoritos.push(idSerie);
@@ -75,6 +80,7 @@ fetch(`https://api.themoviedb.org/3/tv/${idSerie}?api_key=c0945689b0a582e1109713
         
         localStorage.setItem('idSeriesToString', JSON.stringify(favoritos));
         console.log(localStorage);
+
     })
 
     })

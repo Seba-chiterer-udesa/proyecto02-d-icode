@@ -6,7 +6,7 @@ window.addEventListener('load', function(){
         .then (function(datos){
     
             
-            for(let i = 0; i< 20; i++){
+            for(let i = 0; i < 20; i++){
     
             document.querySelector('.contenedor').innerHTML += `
             <div class="hijo">

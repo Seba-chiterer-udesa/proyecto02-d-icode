@@ -1,5 +1,7 @@
 window.addEventListener("load",function(){
 
+    //Declaro el array de favoritos 
+
     let favoritos = [];
 
     //Accedo a la Query String
@@ -11,7 +13,7 @@ window.addEventListener("load",function(){
 
     //Fetch Detalle Pelicula
 
-    fetch (`https://api.themoviedb.org/3/movie/${idMovie}?api_key=c0945689b0a582e110971301d6ea8be2`)
+    fetch (`https://api.themoviedb.org/3/movie/${idMovie}?api_key=c0945689b0a582e110971301d6ea8be2&language=es`)
     .then(function(response){
         return response.json();
     })
@@ -19,7 +21,7 @@ window.addEventListener("load",function(){
     console.log(datos);
 
     let generos = ""
-    for (let i =0; i < datos.genres.length; i++ ){
+    for (let i = 0; i < datos.genres.length; i++ ){
         generos += `<a href="detail-genres.html?idGenero=${datos.genres[i].id}">${datos.genres[i].name} </a>`
     }
 
@@ -36,25 +38,27 @@ window.addEventListener("load",function(){
             </div>
             <div class="detailseriessinopsis-container">                       
                 <h3 class="movie"> Género: ${generos}</h3>
+                <h3 class="movie"> Fecha de estreno: ${datos.release_date}</h3>
                 <h3 class="movie"> Clasificación: ${datos.vote_average}</h3>
                 <h3 class="movie"> Duración: ${datos.type}</h3>
                 <h3 class="movie"> Sinópsis: ${datos.overview}</h3>
-                <h3 class="movie"> Total de Reseñas:${datos.vote_count}</h3>
+                <h3 class="movie"> Total de Reseñas: ${datos.vote_count}</h3>
             <div>
             <div class="boton-favoritos">
                     <div class="detail-favoritos">
-                        <i class="fas fa-star star"></i>
-                        <button class="fav"><h3>Agregar a Favoritos</h3></button>   
+                        <i class="fas fa-star star" id="star"></i>
+                        <button class="fav">Agregar a Favoritos</button>   
                     </div>
             </div>
 `;
+
 
     // Selector del botón favorito
     let buttonFav = document.querySelector('.fav');
         
     // localStorage
         
-    if(localStorage.getItem('idMoviesToString')!=null){
+    if(localStorage.getItem('idMoviesToString') != null){
         favoritos = JSON.parse(localStorage.getItem('idMoviesToString'));
         if(favoritos.includes(idMovie)) {
             buttonFav.innerHTML = `Remover de favoritos`;

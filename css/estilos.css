@@ -581,8 +581,15 @@ form div label{
 
 /* Aca comienza el detailseries.html */
 
+.fav{
+    background-color: #007aff;
+    border-style: none;
+    color:white;
+}
 
-
+#star{
+    color:yellow;
+}
 
 .hijo-detail-series {
     display: flex;
@@ -614,9 +621,10 @@ form div label{
     display: flex;
     justify-content: flex-end;
     margin: 0px 0px 0px 25px;
-   
-
-
+    color: #007aff;
+    width: 180px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .detail-favoritos{
@@ -655,11 +663,6 @@ a{
     text-decoration: none;
 }
 
-.boton-favoritos {
-    width: 400px;
-    display: flex;
-    justify-content: flex-start;
-}
 
 /* Aca comienza el detail-genres.html */
 .titulo h2{
