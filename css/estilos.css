@@ -615,7 +615,9 @@ form div label{
     color: white;
     margin: 4% 3%;
 }
-
+.detailseriessinopsis-container h3{
+    text-transform: uppercase;
+}
 
 .boton-favoritos {
     display: flex;
@@ -794,6 +796,26 @@ a{
         margin: 2% 3%;
         border-style: double;
         border-width: 6px;   
+    }
+
+    .fotodrama p{
+        display: inline-block;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif ;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: medium;
+        text-transform: uppercase;
+        background-color: #007aff;
+        padding-top: 30px;
+        height: 14vh;
+        color:white;
+        border-color:white;
+        width: 100px;
+        vertical-align: middle;
+        border-radius: 50%;
+        margin: 2% 3%;
+        border-style: double;
     }
 
     .hijo-detail-series {

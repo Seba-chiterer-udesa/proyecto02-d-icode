@@ -17,6 +17,7 @@ fetch(`https://api.themoviedb.org/3/discover/tv?api_key=c0945689b0a582e110971301
 
  .then(function (datos) {
 //     console.log(datos)
+document.querySelector('.fotodrama').innerHTML += `<p>${genero}</p>`;
 
  document.querySelector('.tituloSeries').innerHTML += `<h2> • SERIES DE ${genero} ACLAMADAS POR EL PÚBLICO • </h2>`
 
