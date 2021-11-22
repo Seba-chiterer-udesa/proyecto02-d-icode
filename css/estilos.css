@@ -65,6 +65,11 @@ body header{
     margin:0px 0px 36px 10px;
 }
 
+.lupa-search{
+    background: none;
+    border: none;
+}
+
 .burguermenu{ 
     margin-top: 6.5%;
     display: none;

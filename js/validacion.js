@@ -6,7 +6,7 @@ let formulario = document.querySelector ("form");
 let campoBuscar = document.querySelector ("[name=busqueda]");
 let mensaje = document.querySelector(".alert");
 let busqueda = document.querySelector(".header-busqueda input");
-let lupaBusqueda = document.querySelector(".lupa");
+let lupaBusqueda = document.querySelector("[name=buscar-lupa]");
      
 formulario.addEventListener("submit",function(e){
     e.preventDefault(); 
@@ -27,7 +27,7 @@ campoBuscar.addEventListener('input', function(){
     mensaje.innerText = "";
 })
 
-lupaBusqueda.addEventListener("click",function(e){
+lupaBusqueda.addEventListener("submit",function(e){
     e.preventDefault(); 
     if(campoBuscar.value == ""){   
         mensaje.innerText = 'Búsqueda vacía';

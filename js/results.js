@@ -5,8 +5,6 @@ window.addEventListener("load", function(){
     let busqueda = objetoQueryString.get('busqueda');
     let key = ("c0945689b0a582e110971301d6ea8be2");
 
-    
-
     // fetch peliculas
     
     fetch(`https://api.themoviedb.org/3/search/movie?api_key=${key}&language=es&query=${busqueda}`)
@@ -26,7 +24,7 @@ window.addEventListener("load", function(){
                 document.querySelector(".titulo").innerHTML+=`
                 <h2> • RESULTADOS DE BÚSQUEDA PARA "${busqueda}" •</h2>`
     
-                for(let i = 0; i < 2; i++){
+                for(let i = 0; i < 5; i++){
 
                     console.log(datos.results)   
       
@@ -45,9 +43,6 @@ window.addEventListener("load", function(){
                    }
 
             }
-
-        
-
         }
         }).catch(function(error){
             console.log(`El error fue: ${error}`);
@@ -64,17 +59,8 @@ window.addEventListener("load", function(){
 
         }).then(function(datos){
 
-
-            // if (datos.results.length== 0){
-            //     document.querySelector('.titulo').innerHTML +=`
-            //     <h2> • RESULTADOS DE BÚSQUEDA PARA "${busqueda}" NO TIENE COINCIDENCIAS •</h2>
-            //     `
-            // }else{
-
-            //     document.querySelector(".titulo").innerHTML+=`
-            //     <h2> • RESULTADOS DE BÚSQUEDA PARA "${busqueda}" •</h2>`
     
-                for(let i = 0; i < 2; i++){
+                for(let i = 0; i < 5; i++){
 
                     console.log(datos.results)   
       
