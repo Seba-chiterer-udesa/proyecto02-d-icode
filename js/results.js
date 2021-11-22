@@ -65,14 +65,14 @@ window.addEventListener("load", function(){
         }).then(function(datos){
 
 
-            if (datos.results.length== 0){
-                document.querySelector('.titulo').innerHTML +=`
-                <h2> • RESULTADOS DE BÚSQUEDA PARA "${busqueda}" NO TIENE COINCIDENCIAS •</h2>
-                `
-            }else{
+            // if (datos.results.length== 0){
+            //     document.querySelector('.titulo').innerHTML +=`
+            //     <h2> • RESULTADOS DE BÚSQUEDA PARA "${busqueda}" NO TIENE COINCIDENCIAS •</h2>
+            //     `
+            // }else{
 
-                document.querySelector(".titulo").innerHTML+=`
-                <h2> • RESULTADOS DE BÚSQUEDA PARA "${busqueda}" •</h2>`
+            //     document.querySelector(".titulo").innerHTML+=`
+            //     <h2> • RESULTADOS DE BÚSQUEDA PARA "${busqueda}" •</h2>`
     
                 for(let i = 0; i < 2; i++){
 
@@ -92,7 +92,7 @@ window.addEventListener("load", function(){
                     `
                    }
 
-            }
+            // }
 
         
 
