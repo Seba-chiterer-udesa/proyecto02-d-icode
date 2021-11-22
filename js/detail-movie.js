@@ -36,20 +36,22 @@ window.addEventListener("load",function(){
                 <h3>${datos.title}</h3>
                 <p>${generos}</p>
             </div>
-            <div class="detailseriessinopsis-container">                       
+            <div class="detailseriessinopsis-container"> 
+                <h3 class="movie"> Título: ${datos.title}</h3>                      
                 <h3 class="movie"> Género: ${generos}</h3>
                 <h3 class="movie"> Fecha de estreno: ${datos.release_date}</h3>
                 <h3 class="movie"> Clasificación: ${datos.vote_average}</h3>
                 <h3 class="movie"> Duración: ${datos.type}</h3>
                 <h3 class="movie"> Sinópsis: ${datos.overview}</h3>
                 <h3 class="movie"> Total de Reseñas: ${datos.vote_count}</h3>
-            <div>
-            <div class="boton-favoritos">
+                <div class="boton-favoritos">
                     <div class="detail-favoritos">
                         <i class="fas fa-star star" id="star"></i>
                         <button class="fav">Agregar a Favoritos</button>   
                     </div>
             </div>
+            <div>
+            
 `;
 
 
