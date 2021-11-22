@@ -586,9 +586,10 @@ form div label{
 
 .hijo-detail-series {
     display: flex;
-    flex-wrap: wrap;
+    
+    /* flex-wrap: wrap;
     justify-content: space-around;
-    flex-direction: row;
+    flex-direction: row; */
 }
 
 
