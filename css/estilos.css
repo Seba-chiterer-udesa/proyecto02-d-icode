@@ -68,6 +68,7 @@ body header{
 .lupa-search{
     background: none;
     border: none;
+    max-height: 10px;
 }
 
 .burguermenu{ 
@@ -803,7 +804,7 @@ a{
         margin-right: 15%;
     }
 
-    .lupa{
+    .form .lupa-search{
         margin: 0px 10px 27px 5px;
     }
     
