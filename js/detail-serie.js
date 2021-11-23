@@ -40,7 +40,7 @@ fetch(`https://api.themoviedb.org/3/tv/${idSerie}?api_key=c0945689b0a582e1109713
                 <h3 class="movie">Clasificación: ${datos.type}</h3>
                 <h3 class="movie">Sinópsis: ${datos.overview}</h3>
                 <h3 class="movie">Calificación promedio: ${datos.vote_average}</h3>
-                <h3 class="movie">Total de Reseñas:${datos.vote_count}</h3>
+                <h3 class="movie">Total de Reseñas: ${datos.vote_count}</h3>
             <div>
 
             <div class="boton-favoritos">

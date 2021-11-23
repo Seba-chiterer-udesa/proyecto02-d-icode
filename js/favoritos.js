@@ -19,7 +19,7 @@ window.addEventListener('load', function(){
                                       
                     console.log(datos);
 
-                    document.querySelector('section').innerHTML += `
+                    document.querySelector('.moviefav').innerHTML += `
                     <div class="imagen-port series">
                     <a href="./detail-movies.html?idMovie=${datos.id}"><img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${datos.poster_path}" alt="ficha ${datos.title}"></a>
                     <h3>${datos.title}</h3>
@@ -35,10 +35,10 @@ window.addEventListener('load', function(){
     
     }else{
     
-        document.querySelector('section').innerHTML = `
-            <article>
-                <h3>No has agregado peliculas en favoritos</h3>
-            </article>
+        document.querySelector('.moviefav').innerHTML = `
+        <article>
+            <h3>No has agregado peliculas en favoritos</h3>
+        </article>
         `;
     
     }
@@ -60,7 +60,7 @@ window.addEventListener('load', function(){
                                       
                     console.log(datos);
 
-                    document.querySelector('article').innerHTML += `
+                    document.querySelector('.seriefav').innerHTML += `
                     <div class="imagen-port series">
                     <a href="./detail-series.html?idSerie=${datos.id}"><img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${datos.poster_path}" alt="ficha ${datos.title}"></a>
                     <h3>${datos.name}</h3>
@@ -76,7 +76,7 @@ window.addEventListener('load', function(){
     
     }else{
     
-        document.querySelector('article').innerHTML = `
+        document.querySelector('.seriefav').innerHTML = `
             <article>
                 <h3>No has agregado series en favoritos</h3>
             </article>
