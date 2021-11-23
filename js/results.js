@@ -1,5 +1,9 @@
 window.addEventListener("load", function(){
 
+    // Gif que desaparece cuaando la carga se completa
+    let gifLoading = document.querySelector('.gif')
+    gifLoading.style.display = "none"
+
     let queryString = location.search;
     let objetoQueryString = new URLSearchParams(queryString);
     let busqueda = objetoQueryString.get('busqueda');
@@ -14,7 +18,6 @@ window.addEventListener("load", function(){
 
         }).then(function(datos){
 
-
             if (datos.results.length== 0){
                 document.querySelector('.titulo').innerHTML +=`
                 <h2> • RESULTADOS DE BÚSQUEDA PARA "${busqueda}" NO TIENE COINCIDENCIAS •</h2>
@@ -26,7 +29,7 @@ window.addEventListener("load", function(){
     
                 for(let i = 0; i < 5; i++){
 
-                    console.log(datos.results)   
+                    console.log(datos.results) 
       
                    if(datos.results[i].poster_path != null) {
                     
@@ -48,8 +51,6 @@ window.addEventListener("load", function(){
             console.log(`El error fue: ${error}`);
     })
     
-
-
         // fetch series
     
         fetch(`https://api.themoviedb.org/3/search/tv?api_key=${key}&language=es&query=${busqueda}`)
@@ -60,13 +61,13 @@ window.addEventListener("load", function(){
         }).then(function(datos){
 
     
-                for(let i = 0; i < 5; i++){
+            for(let i = 0; i < 5; i++){
 
-                    console.log(datos.results)   
+                console.log(datos.results)   
       
-                   if(datos.results[i].poster_path != null) {
+                if(datos.results[i].poster_path != null) {
                     
-                    document.querySelector('section').innerHTML += `
+                document.querySelector('section').innerHTML += `
     
                     <div class="hijo">
                         <div class="imagen-port">
@@ -76,15 +77,10 @@ window.addEventListener("load", function(){
                         </div>
                     </div>  
                     `
-                   }
-
-            // }
-
-        
-
-        }
+                }
+            }
         }).catch(function(error){
             console.log(`El error fue: ${error}`);
         
-    })
+        })
 })
