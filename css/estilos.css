@@ -767,7 +767,7 @@ a{
     }
     
     .header-busqueda{
-        width: 40%;
+        width: 30%;
         margin-right: 10px; 
     }  
 
@@ -796,7 +796,7 @@ a{
     }
 
     .logo{
-        max-width: 110px;
+        max-width: 90px;
         max-height: 110px;
     }
 
@@ -804,10 +804,12 @@ a{
         margin-right: 15%;
     }
 
-    .form .lupa-search{
+    .form .lupa-search i {
         margin: 0px 10px 27px 5px;
     }
-    
+    .lupa-search{
+        display: none;
+    }
 
     .box-copyright hr{
         display: none;
